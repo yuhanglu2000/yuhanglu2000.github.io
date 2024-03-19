@@ -40,6 +40,8 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 
 **Yuhang Lu**, Xinge Zhu, Tai Wang, Yuexin Ma
 
+Arxiv preprint
+
 [[Paper]](https://arxiv.org/pdf/2312.03774.pdf) [[Code]]()
 
 </div>
@@ -51,6 +53,8 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 <span style="font-size:18px;">**See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data**</span>
 
 **Yuhang Lu**, Qi Jiang, Runnan Chen, Yuenan Hou, Xinge Zhu, Yuexin Ma
+
+Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023
 
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf) [[Code]]()
 
