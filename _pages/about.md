@@ -46,7 +46,17 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/OctreeOcc.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+<span style="font-size:18px;">**OctreeOcc: Efficient and Multi-Granularity Occupancy Prediction Using Octree Queries**</span>
+
+**Yuhang Lu**, Xinge Zhu, Tai Wang, Yuexin Ma
+
+[[Paper]](https://arxiv.org/pdf/2312.03774.pdf) [[Code]]()
+
+</div>
+</div>
 
 # Educations
 
