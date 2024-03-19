@@ -90,7 +90,7 @@ Major: B.E. in Internet of Things Engineering
 # Miscellaneous
 
 ## Hobbies
-Love: Basketball, billiards and jogging
+Love: 🏀Basketball, 🎱billiards and 🏃jogging
 
 <!-- # 💬 Invited Talks -->
 <!-- # 📝 Publications  -->
