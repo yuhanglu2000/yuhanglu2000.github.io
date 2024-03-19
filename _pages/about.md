@@ -22,6 +22,9 @@ I am a Research Assistant at [4DVLab](https://4dvlab.github.io/), under the supe
 
 Prior to joining 4DVLab, I earned my bachelor's degree from the joint program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Marry University of London](https://www.qmul.ac.uk/), graduating with first-class honors.
 
+You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
+
+
 # News
 <!-- # 🔥 News  -->
 <!-- &nbsp;🎉🎉 -->
@@ -33,10 +36,10 @@ Prior to joining 4DVLab, I earned my bachelor's degree from the joint program be
 <!-- # 📝 Publications  -->
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/papers/SeeMoreKnowMore.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data
+<span style="font-size:18px;">**See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data**</span>
 
 **Yuhang Lu**, Qi Jiang, Runnan Chen, Yuenan Hou, Xinge Zhu, Yuexin Ma
 
