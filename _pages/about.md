@@ -50,30 +50,6 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 
 # Educations
 
-<div class='exp-box'> <div class='exp-box-image'><div><img src='images/BUPT_logo.png' alt="sym" width="100%"></div></div>
-<div class='exp-box-text' markdown="1">
-
-**Bachelor**
-
-[Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/), Beijing, China.
-
-*2018.09 - 2022.07*
-
-</div>
-</div>
-
-<div class='exp-box'> <div class='exp-box-image'><div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
-<div class='exp-box-text' markdown="1">
-
-**Bachelor**
-
-[Queen Marry University of London](https://www.qmul.ac.uk/), London, UK.
-
-*2018.09 - 2022.07*
-
-</div>
-</div>
-
 <!-- # 💬 Invited Talks -->
 <!-- # 📝 Publications  -->
 <!-- # 💻 Internships -->
