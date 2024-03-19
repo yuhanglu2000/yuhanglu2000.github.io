@@ -63,6 +63,34 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 
 
 # Educations
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**Queen Marry University of London (QMUL)**</span>
+
+September 2018 - July 2022
+
+Major: B.E. in Internet of Things Engineering (first-class degree)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/BUPT_logo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
+
+September 2018 - July 2022
+
+Major: B.E. in Internet of Things Engineering
+
+</div>
+</div>
+
+# Miscellaneous
+
+## Hobbies
+Love: Basketball, billiards and jogging
 
 <!-- # 💬 Invited Talks -->
 <!-- # 📝 Publications  -->
