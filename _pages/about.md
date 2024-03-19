@@ -33,6 +33,7 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 
 
 # Publications 
+*\* indicates equal contributions*
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/OctreeOcc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -52,7 +53,7 @@ Arxiv preprint
 
 <span style="font-size:18px;">**See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data**</span>
 
-**Yuhang Lu**, Qi Jiang, Runnan Chen, Yuenan Hou, Xinge Zhu, Yuexin Ma
+**Yuhang Lu***, Qi Jiang*, Runnan Chen, Yuenan Hou, Xinge Zhu, Yuexin Ma
 
 Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023
 
