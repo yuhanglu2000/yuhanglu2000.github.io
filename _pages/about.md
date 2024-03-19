@@ -26,14 +26,12 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 
 
 # News
-<!-- # 🔥 News  -->
-<!-- &nbsp;🎉🎉 -->
+
 - *2023.07*: My first paper [SeeMore](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf) has been accepted by ICCV 2023!
 - *2022.08*: I am delighted to join 4DVLab as a Research Assistant.
 
 
 
-<!-- # 📝 Publications  -->
 # Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/papers/SeeMoreKnowMore.png' alt="sym" width="100%"></div></div>
@@ -45,15 +43,41 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 
 [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf) [[Code]]()
 
+</div>
+</div>
 
-<!-- # 🎖 Honors and Awards -->
 
 
 # Educations
-<!-- # 📖 Educations -->
-- *2018.09 - 2022. 07*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+<div class='exp-box'> <div class='exp-box-image'><div><img src='images/BUPT_logo.png' alt="sym" width="100%"></div></div>
+<div class='exp-box-text' markdown="1">
+
+**Bachelor**
+
+[Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/), Beijing, China.
+
+*2018.09 - 2022.07*
+
+</div>
+</div>
+
+<div class='exp-box'> <div class='exp-box-image'><div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
+<div class='exp-box-text' markdown="1">
+
+**Bachelor**
+
+[Queen Marry University of London](https://www.qmul.ac.uk/), London, UK.
+
+*2018.09 - 2022.07*
+
+</div>
+</div>
 
 <!-- # 💬 Invited Talks -->
-
-
+<!-- # 📝 Publications  -->
 <!-- # 💻 Internships -->
+<!-- # 🔥 News  -->
+<!-- &nbsp;🎉🎉 -->
+<!-- # 🎖 Honors and Awards -->
+<!-- # 📖 Educations -->
