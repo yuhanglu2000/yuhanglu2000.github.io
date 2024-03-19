@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "About me - Yuhang Lu"
-description              : 
+description              : "RA @ 4DVLab, SHanghaiTech University"
 repository               : "yuhanglu2000/yuhanglu2000.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuhang Lu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "RA @ 4DVLab, SHanghaiTech University"
+  bio              : 
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
