@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "About me - Yuhang Lu"
+title                    : "About me"
 description              : "RA @ 4DVLab, ShanghaiTech University"
 repository               : "yuhanglu2000/yuhanglu2000.github.io"
 google_scholar_stats_use_cdn : true
