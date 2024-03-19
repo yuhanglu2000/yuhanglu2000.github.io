@@ -20,7 +20,7 @@ redirect_from:
 # About me
 I am a Research Assistant at [4DVLab](https://4dvlab.github.io/), under the supervision of [Yuexin Ma](https://yuexinma.me/). My research focuses on developing a scalable and resource-efficient 3D perception system. Recently, my work focuses on autonomous driving algorithms requiring minimal annotation and computational resources.
 
-Prior to joining 4DVLab, I earned my bachelor's degree from the joint program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Marry University of London](https://www.qmul.ac.uk/), graduating with first-class honors.
+Prior to joining 4DVLab, I earned my bachelor's degree from the joint program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/), graduating with first-class honors.
 
 You can find my CV here: [Yuhang Lu's Curriculum Vitae]()
 
@@ -67,7 +67,7 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span style="font-size:18px;">**Queen Marry University of London (QMUL)**</span>
+<span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
 
 September 2018 - July 2022
 
