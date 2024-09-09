@@ -79,29 +79,7 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 
 
 # 📖 Educations
-<div class='paper-box'>
-    <div class='paper-box-image'>
-        <img src='images/QMUL_logo.png' alt="QMUL logo" width="75%">
-    </div>
-    <div class='paper-box-text' markdown="1">
-        <span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
-        <br>September 2018 - July 2022
-        <br>Major: B.E. in Internet of Things Engineering (first-class degree)
-    </div>
-</div>
-
-<div class='paper-box'>
-    <div class='paper-box-image'>
-        <img src='images/BUPT_logo.jpeg' alt="BUPT logo" width="75%">
-    </div>
-    <div class='paper-box-text' markdown="1">
-        <span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
-        <br>September 2018 - July 2022
-        <br>Major: B.E. in Internet of Things Engineering
-    </div>
-</div>
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/QMUL_logo.png' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
@@ -113,7 +91,7 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/BUPT_logo.jpeg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/BUPT_logo.jpeg' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
@@ -123,7 +101,7 @@ September 2018 - July 2022
 Major: B.E. in Internet of Things Engineering
 
 </div>
-</div> -->
+</div>
 
 # Miscellaneous
 
