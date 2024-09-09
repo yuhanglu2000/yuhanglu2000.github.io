@@ -91,8 +91,21 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 </div>
 </div>
 
-
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge"></div>
+            <img src='images/BUPT_logo.png' alt="BUPT logo" width="500" height="300">
+        </div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+        <span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
+        <br>September 2018 - July 2022
+        <br>Major: B.E. in Internet of Things Engineering
+    </div>
+</div>
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/BUPT_logo.png' alt="sym" width="100%"></div></div>
+
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
