@@ -25,7 +25,7 @@ Prior to joining 4DVLab, I earned my bachelor's degree from the joint program be
 You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pdf)
 
 
-# News
+# 🔥 News
 - *2024.09*: We introduce [IDKB](https://arxiv.org/pdf/2409.02914), the first large-scale vision-language dataset dedicated to professional driving knowledge and experience.
 - *2024.05*: We propose [OctreeOcc](https://arxiv.org/pdf/2312.03774.pdf), a highly efficient, multi-granularity method for occupancy prediction.
 - *2023.07*: Excited to share that my first paper [SeeMore](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf), has been accepted by ICCV 2023!
@@ -33,7 +33,7 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 
 
-# Publications 
+# 📝 Publications 
 *\* indicates equal contributions* 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -78,8 +78,8 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 </div>
 
 
-# Educations
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
+# 📖 Educations
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
@@ -91,19 +91,8 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 </div>
 </div>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='' alt="sym" width="100%"></div></div> -->
-<div class='paper-box-text' markdown="1">
 
-<span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
-
-September 2018 - July 2022
-
-Major: B.E. in Internet of Things Engineering
-
-</div>
-</div>
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/BUPT_logo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/BUPT_logo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
@@ -114,6 +103,57 @@ Major: B.E. in Internet of Things Engineering
 
 </div>
 </div> -->
+<style>
+.paper-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paper-box-image {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.paper-box-image img {
+    height: 100px; /* 调整这个值以控制图片高度 */
+    width: 100px;  /* 确保图片框尺寸相同 */
+    object-fit: contain; /* 保持图片比例不变 */
+    border-radius: 8px; /* 可选：使图片有圆角 */
+}
+
+.paper-box-text {
+    max-width: 500px;
+}
+</style>
+
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge"></div>
+            <img src='images/QMUL_logo.png' alt="QMUL logo">
+        </div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+        <span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
+        <br>September 2018 - July 2022
+        <br>Major: B.E. in Internet of Things Engineering (first-class degree)
+    </div>
+</div>
+
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge"></div>
+            <img src='images/BUPT_logo.png' alt="BUPT logo">
+        </div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+        <span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
+        <br>September 2018 - July 2022
+        <br>Major: B.E. in Internet of Things Engineering
+    </div>
+</div>
 
 # Miscellaneous
 
