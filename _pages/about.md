@@ -79,7 +79,7 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 
 
 # 📖 Educations
-<div class='school-box'><div class='school-box-image'><div><img src='images/QMUL_logo.png' alt="sym" width="75%"></div></div>
+<div class='school-box'><div class='school-box-image'><div><img src='images/QMUL_logo.png' alt="sym" width="100%"></div></div>
 <div class='school-box-text' markdown="1">
 
 <span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
@@ -91,7 +91,7 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 </div>
 </div>
 
-<div class='school-box'><div class='school-box-image'><div><img src='images/BUPT_logo.jpeg' alt="sym" width="75%"></div></div>
+<div class='school-box'><div class='school-box-image'><div><img src='images/BUPT_logo.jpeg' alt="sym" width="100%"></div></div>
 <div class='school-box-text' markdown="1">
 
 <span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
