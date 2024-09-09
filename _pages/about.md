@@ -26,14 +26,29 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 
 # News
-
-- *2023.07*: My first paper [SeeMore](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf) has been accepted by ICCV 2023!
-- *2022.08*: I am delighted to join 4DVLab as a Research Assistant.
+- *2024.09*: We introduce [IDKB](https://arxiv.org/pdf/2409.02914), the first large-scale vision-language dataset dedicated to professional driving knowledge and experience.
+- *2024.05*: We propose [OctreeOcc](https://arxiv.org/pdf/2312.03774.pdf), a highly efficient, multi-granularity method for occupancy prediction.
+- *2023.07*: Excited to share that my first paper [SeeMore](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf), has been accepted by ICCV 2023!
+- *2022.08*: Thrilled to join 4DVLab as a Research Assistant.
 
 
 
 # Publications 
-*\* indicates equal contributions*
+*\* indicates equal contributions* 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**Can LVLMs Obtain a Driver's License? A Benchmark Towards Reliable AGI for Autonomous Driving**</span>
+
+**Yuhang Lu\***, Yichen Yao\*, Jiadong Tu\*, Jiangnan Shao\*, Yuexin Ma, Xinge Zhu
+
+Arxiv preprint
+
+[[Project Page]](https://4dvlab.github.io/project_page/idkb.html) [[Paper]](https://arxiv.org/pdf/2409.02914)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/OctreeOcc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -72,6 +87,18 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 September 2018 - July 2022
 
 Major: B.E. in Internet of Things Engineering (first-class degree)
+
+</div>
+</div>
+
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='' alt="sym" width="100%"></div></div> -->
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
+
+September 2018 - July 2022
+
+Major: B.E. in Internet of Things Engineering
 
 </div>
 </div>
