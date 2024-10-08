@@ -18,14 +18,15 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About me
-I am a Research Assistant at [4DVLab](https://4dvlab.github.io/), under the supervision of Prof. [Yuexin Ma](https://yuexinma.me/). My research involves developing scalable and resource-efficient 3D perception systems. Recently, my work focuses on autonomous driving algorithms requiring minimal annotation and computational resources.
+I am currently a Research Assistant at [4DVLab](https://4dvlab.github.io/) of ShanghaiTech University, supervised by Prof. [Yuexin Ma](https://yuexinma.me/). I am also fortunate to work closely with Dr. [Xinge Zhu](https://xingezhu.me/). Prior to joining 4DVLab, I obtained my bachelor's degree from the joint program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/), graduating with first-class honors.
 
-Prior to joining 4DVLab, I earned my bachelor's degree from the joint program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/), graduating with first-class honors.
+My research focuses on enabling AI to comprehend the 3D world with human-like perception, by developing 3D understanding algorithms that are annotation-efficient, highly generalizable, and interpretable. Recently, I have concentrated on utilizing vision-language models(VLMs) to enhance the performance and generalization of autonomous driving algorithms.
 
 You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pdf)
 
 
 # 🔥 News
+- *2024.09*: OctreeOcc is accepted by NeurIPS 2024!
 - *2024.09*: We introduce [IDKB](https://arxiv.org/pdf/2409.02914), the first large-scale vision-language dataset dedicated to professional driving knowledge and experience.
 - *2024.05*: We propose [OctreeOcc](https://arxiv.org/pdf/2312.03774.pdf), a highly efficient, multi-granularity method for occupancy prediction.
 - *2023.07*: Excited to share that my first paper [SeeMore](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf), has been accepted by ICCV 2023!
@@ -49,14 +50,14 @@ Arxiv preprint
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/OctreeOcc.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/papers/OctreeOcc.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**OctreeOcc: Efficient and Multi-Granularity Occupancy Prediction Using Octree Queries**</span>
 
 **Yuhang Lu**, Xinge Zhu, Tai Wang, Yuexin Ma
 
-Arxiv preprint
+Conference on Neural Information Processing Systems (NeurIPS), 2024
 
 [[Paper]](https://arxiv.org/pdf/2312.03774.pdf) [[Code]]()
 
@@ -79,18 +80,6 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 
 
 # 📖 Educations
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/QMUL_logo.png' alt="sym" width="95%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
-
-September 2018 - July 2022
-
-Major: B.E. in Internet of Things Engineering (first-class degree)
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/BUPT_logo.jpeg' alt="sym" width="95%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -99,6 +88,18 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 September 2018 - July 2022
 
 Major: B.E. in Internet of Things Engineering
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/QMUL_logo.png' alt="sym" width="95%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
+
+September 2018 - July 2022
+
+Major: B.E. in Internet of Things Engineering (first-class degree)
 
 </div>
 </div>
