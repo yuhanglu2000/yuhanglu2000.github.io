@@ -20,7 +20,7 @@ redirect_from:
 # About me
 I am currently a Research Assistant at [4DVLab](https://4dvlab.github.io/) of ShanghaiTech University, supervised by Prof. [Yuexin Ma](https://yuexinma.me/). I am also fortunate to work closely with Dr. [Xinge Zhu](https://xingezhu.me/). Prior to joining 4DVLab, I obtained my bachelor's degree from the joint program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/), graduating with first-class honors.
 
-My research focuses on enabling AI to comprehend the 3D world with human-like perception, by developing 3D understanding algorithms that are annotation-efficient, highly generalizable, and interpretable. Recently, I have concentrated on utilizing vision-language models(VLMs) to enhance the performance and generalization of autonomous driving algorithms.
+My research aims to empower AI to comprehend the 3D world with human-like perception, by developing 3D understanding algorithms that are annotation-efficient, highly generalizable, and interpretable. Recently, I focus on leveraging vision-language models (VLMs) to improve the performance and generalization of autonomous driving algorithms.
 
 You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pdf)
 
@@ -36,7 +36,7 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 # 📝 Publications 
 *\* indicates equal contributions* 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Can LVLMs Obtain a Driver's License? A Benchmark Towards Reliable AGI for Autonomous Driving**</span>
