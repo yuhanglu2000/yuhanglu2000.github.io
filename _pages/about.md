@@ -26,6 +26,7 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 
 # 🔥 News
+- *2024.12*: IDKB is accepted by AAAI 2025!
 - *2024.09*: OctreeOcc is accepted by NeurIPS 2024!
 - *2024.09*: We introduce [IDKB](https://arxiv.org/pdf/2409.02914), the first large-scale vision-language dataset dedicated to professional driving knowledge and experience.
 - *2024.05*: We propose [OctreeOcc](https://arxiv.org/pdf/2312.03774.pdf), a highly efficient, multi-granularity method for occupancy prediction.
@@ -36,14 +37,14 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 # 📝 Publications 
 *\* indicates equal contributions* 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Can LVLMs Obtain a Driver's License? A Benchmark Towards Reliable AGI for Autonomous Driving**</span>
 
 **Yuhang Lu\***, Yichen Yao\*, Jiadong Tu\*, Jiangnan Shao\*, Yuexin Ma, Xinge Zhu
 
-Arxiv preprint
+Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)
 
 [[Project Page]](https://4dvlab.github.io/project_page/idkb.html) [[Paper]](https://arxiv.org/pdf/2409.02914)
 
