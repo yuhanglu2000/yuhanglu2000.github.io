@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "About me"
-description              : "RA @ 4DVLab, ShanghaiTech University"
+description              : "Intern @ OpenDriveLab, Shanghai AI Lab"
 repository               : "yuhanglu2000/yuhanglu2000.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=HiwDOksAAAAJ"
-  email            : "luyh2@shanghaitech.edu.cn"
+  email            : "luyuhang@pjlab.org.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
