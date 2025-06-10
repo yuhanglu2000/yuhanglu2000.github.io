@@ -18,14 +18,17 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About me
-I am currently a Research Assistant at [4DVLab](https://4dvlab.github.io/) of ShanghaiTech University, supervised by Prof. [Yuexin Ma](https://yuexinma.me/). I am also fortunate to work closely with Dr. [Xinge Zhu](https://xingezhu.me/). Prior to joining 4DVLab, I obtained my bachelor's degree from the joint program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/), graduating with first-class honors.
+I am currently an Research Intern at the [OpenDriveLab](https://opendrivelab.com/), working under the supervision of Professor [Hongyang Li](https://lihongyang.info/). Previously, I was a Research Assistant at ShanghaiTech University's [4DVLab](https://4dvlab.github.io/), supervised by Professor [Yuexin Ma](https://yuexinma.me/), where I also collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/).
 
-My research aims to empower AI to comprehend the 3D world with human-like perception, by developing 3D understanding algorithms that are annotation-efficient, highly generalizable, and interpretable. Recently, I focus on leveraging vision-language models (VLMs) to improve the performance and generalization of autonomous driving algorithms.
+I earned my BSc with ​first-class honours​ from the dual-degree program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/).
+
+My work focuses on enabling AI to perceive the 3D world like humans by developing ​**highly generalizable**, ​**interpretable**, and ​**evolvable**​ 3D understanding algorithms.
 
 You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pdf)
 
 
 # 🔥 News
+- *2025.06*: Join OpenDriveLab as Intern. 
 - *2024.12*: IDKB is accepted by AAAI 2025!
 - *2024.09*: OctreeOcc is accepted by NeurIPS 2024!
 - *2024.09*: We introduce [IDKB](https://arxiv.org/pdf/2409.02914), the first large-scale vision-language dataset dedicated to professional driving knowledge and experience.
