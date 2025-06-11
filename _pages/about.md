@@ -41,18 +41,10 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 *\* indicates equal contributions* 
 
 <style>
-/* 强制统一论文图片尺寸 */
-div.paper-box div.paper-box-image div img,
-.paper-box .paper-box-image img,
+/* 统一论文图片尺寸 */
 .paper-box-image img {
-    width: 100% !important;
-    height: 180px !important;
     max-width: none !important;
-    min-width: 100% !important;
     object-fit: fill !important;
-    display: block !important;
-    box-sizing: border-box !important;
-    flex-shrink: 0 !important;
 }
 
 .work-education-box {
