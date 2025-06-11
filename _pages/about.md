@@ -49,15 +49,17 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 .work-education-box {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 1.5em 0;
+    text-align: center;
+    padding: 2em 0;
     border-bottom: 1px #efefef solid;
 }
 
 .work-education-box .logo {
-    width: 80px;
-    height: 80px;
-    margin-right: 2em;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 1.5em;
     flex-shrink: 0;
 }
 
@@ -65,23 +67,16 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 8px;
     background-color: #f8f9fa;
 }
 
 .work-education-box .content {
-    flex: 1;
+    max-width: 600px;
+    line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-    .work-education-box {
-        flex-direction: column;
-        text-align: center;
-    }
-    .work-education-box .logo {
-        margin-right: 0;
-        margin-bottom: 1em;
-    }
+.work-education-box .content p {
+    margin-bottom: 0.5em;
 }
 </style>
 
@@ -147,9 +142,7 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 <div class='logo'><img src='images/OpenDriveLab_logo.png' alt="OpenDriveLab"></div>
 <div class='content' markdown="1">
 
-**OpenDriveLab, Shanghai AI Lab**  
-*Research Intern (Supervisor: Hongyang Li)*  
-June 2025 - Present | Shanghai, China
+**OpenDriveLab, Shanghai AI Lab** | Research Intern (Supervisor: Hongyang Li) | June 2025 - Present | Shanghai, China
 
 </div>
 </div>
@@ -158,9 +151,7 @@ June 2025 - Present | Shanghai, China
 <div class='logo'><img src='images/ShanghaiTech_logo.png' alt="ShanghaiTech"></div>
 <div class='content' markdown="1">
 
-**ShanghaiTech University**  
-*Research Assistant (Supervisor: Yuexin Ma)*  
-August 2022 - April 2025 | Shanghai, China
+**ShanghaiTech University** | Research Assistant (Supervisor: Yuexin Ma) | August 2022 - April 2025 | Shanghai, China
 
 </div>
 </div>
@@ -171,9 +162,7 @@ August 2022 - April 2025 | Shanghai, China
 <div class='logo'><img src='images/BUPT_logo.jpeg' alt="BUPT"></div>
 <div class='content' markdown="1">
 
-**Beijing University of Posts and Telecommunications (BUPT)**  
-*B.E. in Internet of Things Engineering*  
-September 2018 - July 2022
+**Beijing University of Posts and Telecommunications (BUPT)** | B.E. in Internet of Things Engineering | September 2018 - July 2022
 
 </div>
 </div>
@@ -182,9 +171,7 @@ September 2018 - July 2022
 <div class='logo'><img src='images/QMUL_logo.png' alt="QMUL"></div>
 <div class='content' markdown="1">
 
-**Queen Mary University of London (QMUL)**  
-*B.E. in Internet of Things Engineering (first-class degree)*  
-September 2018 - July 2022
+**Queen Mary University of London (QMUL)** | B.E. in Internet of Things Engineering (first-class degree) | September 2018 - July 2022
 
 </div>
 </div>
