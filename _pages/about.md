@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About me
-I am currently an Research Intern at the [OpenDriveLab](https://opendrivelab.com/), working under the supervision of Professor [Hongyang Li](https://lihongyang.info/). Previously, I was a Research Assistant at ShanghaiTech University's [4DVLab](https://4dvlab.github.io/), supervised by Professor [Yuexin Ma](https://yuexinma.me/), where I also collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/).
+I am currently an Research Intern at the [OpenDriveLab](https://opendrivelab.com/), working under the supervision of Prof. [Hongyang Li](https://lihongyang.info/). Previously, I was a Research Assistant at [4DVLab](https://4dvlab.github.io/), supervised by Prof. [Yuexin Ma](https://yuexinma.me/), where I also collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/).
 
 I earned my BSc with ​first-class honours​ from the dual-degree program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/).
 
