@@ -99,7 +99,7 @@ Ziyang Yan, Wenzhen Dong, Yihua Shao, **Yuhang Lu\***, Liu Haiyang, Jingwen Liu,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/papers/IDKB.png' alt="sym"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/papers/IDKB.png' alt="sym" style="width: 100% !important; height: 180px !important; max-width: none !important; object-fit: fill !important;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Can LVLMs Obtain a Driver's License? A Benchmark Towards Reliable AGI for Autonomous Driving**</span>
