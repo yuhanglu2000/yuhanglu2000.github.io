@@ -147,7 +147,7 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 <div class='logo'><img src='images/OpenDriveLab_logo.png' alt="OpenDriveLab"></div>
 <div class='content' markdown="1">
 
-<span style="font-size:18px;">**OpenDriveLab, Shanghai AI Lab**</span>
+<span style="font-size:14px;">**OpenDriveLab, Shanghai AI Lab**</span>
 
 June 2025 - Present
 
@@ -162,7 +162,7 @@ Location: Shanghai, China
 <div class='logo'><img src='images/ShanghaiTech_logo.png' alt="ShanghaiTech"></div>
 <div class='content' markdown="1">
 
-<span style="font-size:18px;">**ShanghaiTech University**</span>
+<span style="font-size:14px;">**ShanghaiTech University**</span>
 
 August 2022 - April 2025
 
@@ -179,7 +179,7 @@ Location: Shanghai, China
 <div class='logo'><img src='images/BUPT_logo.jpeg' alt="BUPT"></div>
 <div class='content' markdown="1">
 
-<span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
+<span style="font-size:14px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
 
 September 2018 - July 2022
 
@@ -192,7 +192,7 @@ Major: B.E. in Internet of Things Engineering
 <div class='logo'><img src='images/QMUL_logo.png' alt="QMUL"></div>
 <div class='content' markdown="1">
 
-<span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
+<span style="font-size:14px;">**Queen Mary University of London (QMUL)**</span>
 
 September 2018 - July 2022
 
@@ -201,7 +201,7 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 </div>
 </div>
 
-# Miscellaneous
+# 🌟 Miscellaneous
 ## Academic Services
 I served as a reviewer for top-tier conference such as ICCV, NeurIPS ...
 
