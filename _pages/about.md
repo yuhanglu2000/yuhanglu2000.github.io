@@ -83,13 +83,33 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 
 # 💻 Work Experience
 
-**OpenDriveLab, Shanghai AI Lab** - Shanghai, China  
-*Research Intern (Supervisor: Hongyang Li)*  
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/OpenDriveLab_logo.png' alt="sym" width="95%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**OpenDriveLab, Shanghai AI Lab**</span>
+
 June 2025 - Present
 
-**ShanghaiTech University** - Shanghai, China  
-*Research Assistant (Supervisor: Yuexin Ma)*  
+Position: Research Intern (Supervisor: Hongyang Li)
+
+Location: Shanghai, China
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/ShanghaiTech_logo.png' alt="sym" width="95%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**ShanghaiTech University**</span>
+
 August 2022 - April 2025
+
+Position: Research Assistant (Supervisor: Yuexin Ma)
+
+Location: Shanghai, China
+
+</div>
+</div>
 
 # 📖 Educations
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/BUPT_logo.jpeg' alt="sym" width="95%"></div></div>
@@ -117,12 +137,16 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 </div>
 
 # Miscellaneous
-## Academic Service
-I served as a reviewer for top-tier journal and conference such as ICCV, NeurIPS ...
+## Academic Services
+I served as a reviewer for top-tier conference such as ICCV, NeurIPS ...
 
 ## Hobbies
 Love: 🎱Billiards (Chinese 8 ball and Snooker), 🏀basketball and 🏃jogging
 
 <!-- # 💬 Invited Talks -->
+<!-- # 📝 Publications  -->
+<!-- # 💻 Internships -->
+<!-- # 🔥 News  -->
 <!-- &nbsp;🎉🎉 -->
 <!-- # 🎖 Honors and Awards -->
+<!-- # 📖 Educations -->
