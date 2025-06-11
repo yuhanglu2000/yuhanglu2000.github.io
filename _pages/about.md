@@ -44,9 +44,7 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 .paper-box-image img {
     width: 100% !important;
     height: 180px !important;
-    object-fit: contain !important;
-    object-position: center !important;
-    background-color: #f8f9fa !important;
+    object-fit: fill !important;
 }
 </style>
 
