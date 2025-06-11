@@ -34,7 +34,6 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 - *2024.09*: We introduce [IDKB](https://arxiv.org/pdf/2409.02914), the first large-scale vision-language dataset dedicated to professional driving knowledge and experience.
 - *2024.05*: We propose [OctreeOcc](https://arxiv.org/pdf/2312.03774.pdf), a highly efficient, multi-granularity method for occupancy prediction.
 - *2023.07*: Excited to share that my first paper [SeeMore](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf), has been accepted by ICCV 2023!
-- *2022.08*: Thrilled to join 4DVLab as a Research Assistant.
 
 
 
@@ -82,6 +81,15 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 </div>
 </div>
 
+# 💻 Work Experience
+
+**OpenDriveLab, Shanghai AI Lab** - Shanghai, China  
+*Research Intern (Supervisor: Hongyang Li)*  
+June 2025 - Present
+
+**ShanghaiTech University** - Shanghai, China  
+*Research Assistant (Supervisor: Yuexin Ma)*  
+August 2022 - April 2025
 
 # 📖 Educations
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/BUPT_logo.jpeg' alt="sym" width="95%"></div></div>
@@ -109,14 +117,12 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 </div>
 
 # Miscellaneous
+## Academic Service
+I served as a reviewer for top-tier journal and conference such as ICCV, NeurIPS ...
 
 ## Hobbies
-Love: 🏀Basketball, 🎱billiards and 🏃jogging
+Love: 🎱Billiards (Chinese 8 ball and Snooker), 🏀basketball and 🏃jogging
 
 <!-- # 💬 Invited Talks -->
-<!-- # 📝 Publications  -->
-<!-- # 💻 Internships -->
-<!-- # 🔥 News  -->
 <!-- &nbsp;🎉🎉 -->
 <!-- # 🎖 Honors and Awards -->
-<!-- # 📖 Educations -->
