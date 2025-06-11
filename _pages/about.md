@@ -39,6 +39,17 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 # 📝 Publications 
 *\* indicates equal contributions* 
+
+<style>
+.paper-box-image img {
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    background-color: #f8f9fa !important;
+}
+</style>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/papers/RenderWorld.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
