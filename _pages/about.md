@@ -41,25 +41,24 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 *\* indicates equal contributions* 
 
 <style>
-.paper-box-image img {
+div.paper-box div.paper-box-image img {
     width: 100% !important;
     height: 180px !important;
     object-fit: fill !important;
+    display: block !important;
 }
 
 .work-education-box {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 2em 0;
+    padding: 1.5em 0;
     border-bottom: 1px #efefef solid;
 }
 
 .work-education-box .logo {
-    width: 200px;
-    height: 60px;
-    margin-bottom: 1.5em;
+    width: 80px;
+    height: 80px;
+    margin-right: 2em;
     flex-shrink: 0;
 }
 
@@ -67,20 +66,27 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
     width: 100%;
     height: 100%;
     object-fit: contain;
-    background-color: #f8f9fa;
+    border-radius: 8px;
+    background-color: transparent;
 }
 
 .work-education-box .content {
-    max-width: 600px;
-    line-height: 1.6;
+    flex: 1;
 }
 
-.work-education-box .content p {
-    margin-bottom: 0.5em;
+@media (max-width: 768px) {
+    .work-education-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .work-education-box .logo {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
 }
 </style>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/papers/RenderWorld.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/papers/RenderWorld.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**RenderWorld: World Model with Self-Supervised 3D Label**</span>
@@ -94,7 +100,7 @@ Ziyang Yan, Wenzhen Dong, Yihua Shao, **Yuhang Lu\***, Liu Haiyang, Jingwen Liu,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/papers/IDKB.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**Can LVLMs Obtain a Driver's License? A Benchmark Towards Reliable AGI for Autonomous Driving**</span>
@@ -108,7 +114,7 @@ Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/papers/OctreeOcc.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/papers/OctreeOcc.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**OctreeOcc: Efficient and Multi-Granularity Occupancy Prediction Using Octree Queries**</span>
@@ -122,7 +128,7 @@ Conference on Neural Information Processing Systems (NeurIPS), 2024
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/papers/SeeMoreKnowMore.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/papers/SeeMoreKnowMore.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span style="font-size:18px;">**See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data**</span>
@@ -142,7 +148,13 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 <div class='logo'><img src='images/OpenDriveLab_logo.png' alt="OpenDriveLab"></div>
 <div class='content' markdown="1">
 
-**OpenDriveLab, Shanghai AI Lab** | Research Intern (Supervisor: Hongyang Li) | June 2025 - Present | Shanghai, China
+<span style="font-size:18px;">**OpenDriveLab, Shanghai AI Lab**</span>
+
+June 2025 - Present
+
+Position: Research Intern (Supervisor: Hongyang Li)
+
+Location: Shanghai, China
 
 </div>
 </div>
@@ -151,7 +163,13 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 <div class='logo'><img src='images/ShanghaiTech_logo.png' alt="ShanghaiTech"></div>
 <div class='content' markdown="1">
 
-**ShanghaiTech University** | Research Assistant (Supervisor: Yuexin Ma) | August 2022 - April 2025 | Shanghai, China
+<span style="font-size:18px;">**ShanghaiTech University**</span>
+
+August 2022 - April 2025
+
+Position: Research Assistant (Supervisor: Yuexin Ma)
+
+Location: Shanghai, China
 
 </div>
 </div>
@@ -162,7 +180,11 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 <div class='logo'><img src='images/BUPT_logo.jpeg' alt="BUPT"></div>
 <div class='content' markdown="1">
 
-**Beijing University of Posts and Telecommunications (BUPT)** | B.E. in Internet of Things Engineering | September 2018 - July 2022
+<span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
+
+September 2018 - July 2022
+
+Major: B.E. in Internet of Things Engineering
 
 </div>
 </div>
@@ -171,7 +193,11 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 <div class='logo'><img src='images/QMUL_logo.png' alt="QMUL"></div>
 <div class='content' markdown="1">
 
-**Queen Mary University of London (QMUL)** | B.E. in Internet of Things Engineering (first-class degree) | September 2018 - July 2022
+<span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
+
+September 2018 - July 2022
+
+Major: B.E. in Internet of Things Engineering (first-class degree)
 
 </div>
 </div>
