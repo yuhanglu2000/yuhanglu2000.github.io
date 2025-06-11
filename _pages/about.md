@@ -46,6 +46,43 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
     height: 180px !important;
     object-fit: fill !important;
 }
+
+.work-education-box {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 0;
+    border-bottom: 1px #efefef solid;
+}
+
+.work-education-box .logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 2em;
+    flex-shrink: 0;
+}
+
+.work-education-box .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.work-education-box .content {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .work-education-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .work-education-box .logo {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+}
 </style>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/papers/RenderWorld.png' alt="sym" width="100%"></div></div>
@@ -106,55 +143,48 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 
 # 💻 Work Experience
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/OpenDriveLab_logo.png' alt="sym" width="95%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='work-education-box'>
+<div class='logo'><img src='images/OpenDriveLab_logo.png' alt="OpenDriveLab"></div>
+<div class='content' markdown="1">
 
-<span style="font-size:18px;">**OpenDriveLab, Shanghai AI Lab**</span>
-
-June 2025 - Present
-
-Position: Research Intern (Supervisor: Hongyang Li)
-
-Location: Shanghai, China
+**OpenDriveLab, Shanghai AI Lab**  
+*Research Intern (Supervisor: Hongyang Li)*  
+June 2025 - Present | Shanghai, China
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/ShanghaiTech_logo.png' alt="sym" width="95%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='work-education-box'>
+<div class='logo'><img src='images/ShanghaiTech_logo.png' alt="ShanghaiTech"></div>
+<div class='content' markdown="1">
 
-<span style="font-size:18px;">**ShanghaiTech University**</span>
-
-August 2022 - April 2025
-
-Position: Research Assistant (Supervisor: Yuexin Ma)
-
-Location: Shanghai, China
+**ShanghaiTech University**  
+*Research Assistant (Supervisor: Yuexin Ma)*  
+August 2022 - April 2025 | Shanghai, China
 
 </div>
 </div>
 
 # 📖 Educations
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/BUPT_logo.jpeg' alt="sym" width="95%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span style="font-size:18px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
+<div class='work-education-box'>
+<div class='logo'><img src='images/BUPT_logo.jpeg' alt="BUPT"></div>
+<div class='content' markdown="1">
 
+**Beijing University of Posts and Telecommunications (BUPT)**  
+*B.E. in Internet of Things Engineering*  
 September 2018 - July 2022
-
-Major: B.E. in Internet of Things Engineering
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/QMUL_logo.png' alt="sym" width="95%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='work-education-box'>
+<div class='logo'><img src='images/QMUL_logo.png' alt="QMUL"></div>
+<div class='content' markdown="1">
 
-<span style="font-size:18px;">**Queen Mary University of London (QMUL)**</span>
-
+**Queen Mary University of London (QMUL)**  
+*B.E. in Internet of Things Engineering (first-class degree)*  
 September 2018 - July 2022
-
-Major: B.E. in Internet of Things Engineering (first-class degree)
 
 </div>
 </div>
