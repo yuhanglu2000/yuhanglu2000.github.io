@@ -39,6 +39,20 @@ You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pd
 
 # 📝 Publications 
 *\* indicates equal contributions* 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/papers/RenderWorld.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**RenderWorld: World Model with Self-Supervised 3D Label**</span>
+
+Ziyang Yan, Wenzhen Dong, Yihua Shao, **Yuhang Lu\***, Liu Haiyang, Jingwen Liu, Haozhe Wang, Zhe Wang, Yan Wang, Fabio Remondino, Yuexin Ma
+
+2025 IEEE International Conference on Robotics and Automation (ICRA 2025)
+
+[[Paper]](https://arxiv.org/pdf/2409.11356)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/papers/IDKB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
