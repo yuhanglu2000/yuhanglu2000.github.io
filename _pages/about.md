@@ -157,7 +157,7 @@ redirect_from:
             <a href="https://arxiv.org/pdf/2312.03774.pdf" class="paper-link" target="_blank">
               <i class="bi bi-file-earmark-pdf"></i> Paper
             </a>
-            <a href="#" class="paper-link secondary" target="_blank">
+            <a href="https://github.com/4DVLab/OctreeOcc" class="paper-link secondary" target="_blank">
               <i class="bi bi-github"></i> Code
             </a>
           </div>
@@ -175,7 +175,7 @@ redirect_from:
             <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf" class="paper-link" target="_blank">
               <i class="bi bi-file-earmark-pdf"></i> Paper
             </a>
-            <a href="#" class="paper-link secondary" target="_blank">
+            <a href="https://github.com/4DVLab/SeeMoreKnowMore" class="paper-link secondary" target="_blank">
               <i class="bi bi-github"></i> Code
             </a>
           </div>
