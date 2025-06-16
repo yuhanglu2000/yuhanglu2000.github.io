@@ -2,45 +2,27 @@
 ---
 
 /*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ * Modern Academic Homepage Styles
+ * Yuhang Lu (陆宇航)
+ */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
-
-@import "reset";
-@import "base";
-
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
-
-@import "forms";
-
-@import "page";
-@import "archive";
-@import "sidebar";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+// Import modern styles (our custom design)
 @import "modern";
 
+// Basic responsive mixins (inline instead of vendor)
+@mixin breakpoint($size) {
+  @if $size == small {
+    @media (max-width: 600px) { @content; }
+  }
+  @if $size == medium {
+    @media (min-width: 601px) and (max-width: 900px) { @content; }
+  }
+  @if $size == large {
+    @media (min-width: 901px) { @content; }
+  }
+}
+
+// Legacy paper box styles (for compatibility)
 .paper-box {
     display: flex;
     justify-content: left;
@@ -71,7 +53,7 @@
         order: 1;
     }
     
-    @include breakpoint($medium) {
+    @include breakpoint(large) {
         .paper-box-image{
             justify-content: left;
             min-width: 200px;
@@ -85,10 +67,7 @@
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
