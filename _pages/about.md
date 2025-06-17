@@ -255,7 +255,7 @@ redirect_from:
           <i class="bi bi-envelope"></i>
         </div>
         <h3 class="contact-title">Email</h3>
-        <p class="contact-info">luyuhang@pjlab.org.cn</p>
+        <p class="contact-info">luyuhang@opendrivelab.com</p>
       </div>
       
       <div class="contact-card fade-in">
