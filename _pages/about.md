@@ -78,6 +78,12 @@ redirect_from:
   <div class="container">
     <h2 class="section-title">🔥 Latest News</h2>
     <div class="news-timeline">
+    <div class="news-item fade-in">
+        <div class="news-date">2025.06</div>
+        <div class="news-content">
+          <strong>Paper Accepted:</strong> ReAL-AD accepted by ICCV 2025!
+        </div>
+      </div>
       <div class="news-item fade-in">
         <div class="news-date">2025.06</div>
         <div class="news-content">
@@ -113,6 +119,21 @@ redirect_from:
     <p class="publications-note"><em>* indicates equal contributions</em></p>
     
     <div class="paper-grid">
+     <!-- ReAL-AD Paper -->
+      <div class="paper-card fade-in">
+        <img src="images/papers/ReAL-AD.png" alt="ReAL-AD" class="paper-image">
+        <div class="paper-content">
+          <div class="paper-venue">ICCV 2025</div>
+          <h3 class="paper-title">ReAL-AD: Towards Human-Like Reasoning in End-to-End Autonomous Driving</h3>
+          <p class="paper-authors"><strong>Yuhang Lu*</strong>, Jiadong Tu, Xinge Zhu, Yuexin Ma</p>
+          <div class="paper-links">
+            <a href="" class="paper-link" target="_blank">
+              <i class="bi bi-file-earmark-pdf"></i> Paper
+            </a>
+          </div>
+        </div>
+      </div>
+
       <!-- RenderWorld Paper -->
       <div class="paper-card fade-in">
         <img src="images/papers/RenderWorld.png" alt="RenderWorld" class="paper-image">
