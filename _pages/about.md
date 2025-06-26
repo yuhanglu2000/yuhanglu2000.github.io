@@ -125,7 +125,7 @@ redirect_from:
         <div class="paper-content">
           <div class="paper-venue">ICCV 2025</div>
           <h3 class="paper-title">ReAL-AD: Towards Human-Like Reasoning in End-to-End Autonomous Driving</h3>
-          <p class="paper-authors"><strong>Yuhang Lu*</strong>, Jiadong Tu, Xinge Zhu, Yuexin Ma</p>
+          <p class="paper-authors"><strong>Yuhang Lu</strong>, Jiadong Tu, Xinge Zhu, Yuexin Ma</p>
           <div class="paper-links">
             <a href="" class="paper-link" target="_blank">
               <i class="bi bi-file-earmark-pdf"></i> Paper
@@ -140,7 +140,7 @@ redirect_from:
         <div class="paper-content">
           <div class="paper-venue">ICRA 2025</div>
           <h3 class="paper-title">RenderWorld: World Model with Self-Supervised 3D Label</h3>
-          <p class="paper-authors">Ziyang Yan, Wenzhen Dong, Yihua Shao, <strong>Yuhang Lu*</strong>, Liu Haiyang, Jingwen Liu, Haozhe Wang, Zhe Wang, Yan Wang, Fabio Remondino, Yuexin Ma</p>
+          <p class="paper-authors">Ziyang Yan, Wenzhen Dong, Yihua Shao, <strong>Yuhang Lu</strong>, Liu Haiyang, Jingwen Liu, Haozhe Wang, Zhe Wang, Yan Wang, Fabio Remondino, Yuexin Ma</p>
           <div class="paper-links">
             <a href="https://arxiv.org/pdf/2409.11356" class="paper-link" target="_blank">
               <i class="bi bi-file-earmark-pdf"></i> Paper
