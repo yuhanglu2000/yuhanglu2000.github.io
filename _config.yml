@@ -6,9 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yuhang Lu 陆宇航"
-description              : "Computer Vision Researcher | 3D Perception & Autonomous Driving"
+title                    : "About me"
+description              : "Intern @ OpenDriveLab, Shanghai AI Lab"
 repository               : "yuhanglu2000/yuhanglu2000.github.io"
+google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -22,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuhang Lu 陆宇航"
   avatar           : "images/YuhangLu_profile.png"
-  bio              : "Computer Vision Researcher specializing in 3D Perception & Autonomous Driving"
+  bio              : 
   location         : "Shanghai, China"
-  employer         : "OpenDriveLab, Shanghai AI Lab"
+  employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=HiwDOksAAAAJ"
   email            : "luyuhang@opendrivelab.com"
