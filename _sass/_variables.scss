@@ -105,7 +105,7 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    Breakpoints
    ========================================================================== */
 
-// @include breakpoint-set("to ems", true); // Commented out for GitHub Pages compatibility
+@include breakpoint-set("to ems", true);
 /*
 $small                      : 400px;
 $medium                     : 500px;

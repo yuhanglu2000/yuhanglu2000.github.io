@@ -5,7 +5,8 @@ _site/
 .jekyll-metadata
 
 # Bundle files
-vendor/
+# vendor/ # Commented out to include Sass vendor libraries for GitHub Pages
+vendor/bundle/
 .bundle/
 
 # System files
