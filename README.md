@@ -4,6 +4,12 @@ This is **Yuhang Lu (陆宇航)**'s personal academic homepage.
 
 🌐 **Live Demo**: [https://yuhanglu2000.github.io](https://yuhanglu2000.github.io)
 
+## ✨ Recent Updates
+
+- **Image Consistency**: All paper images now display at consistent 400px × 180px dimensions
+- **Layout Optimization**: Improved spacing between paper images and text content
+- **Logo Enhancement**: Institution logos in work experience and education sections enlarged to 120px × 120px
+
 ## 🚀 Quick Start
 
 ### Local Development
@@ -52,31 +58,35 @@ author:
 **Modify Homepage Content** - Edit `_pages/about.md`:
 
 - **About Me**: Update the About Me section text
-- **Research Interests**: Modify Research Interests cards
 - **Latest News**: Add/modify Latest News items
 - **Publications**: Add new papers to Publications section
-- **Experience**: Update Experience timeline
-- **Education**: Modify Education section
+- **Work Experience**: Update work experience entries
+- **Education**: Modify education section
+- **Logo Images**: Work experience and education logos (120x120px)
+- **Paper Images**: Publications images (400x180px, auto-resized for consistency)
 
 ### Adding New Publications
 
-Add new papers to the Publications section:
+Add new papers to the Publications section in `_pages/about.md`:
 
 ```html
-<div class="paper-card fade-in">
-  <img src="images/papers/paper-image.png" alt="Paper Title" class="paper-image">
-  <div class="paper-content">
-    <div class="paper-venue">Conference Year</div>
-    <h3 class="paper-title">Paper Title</h3>
-    <p class="paper-authors">Author List</p>
-    <div class="paper-links">
-      <a href="paper-url" class="paper-link" target="_blank">
-        <i class="bi bi-file-earmark-pdf"></i> Paper
-      </a>
-      <a href="project-url" class="paper-link secondary" target="_blank">
-        <i class="bi bi-globe"></i> Project
-      </a>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Conference Year</div>
+      <img src='images/papers/paper-image.png' alt="Paper Title">
     </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+<span style="font-size:18px;">**Paper Title**</span>
+
+Author List
+
+Conference/Journal Name
+
+[[Paper]](paper-url) [[Code]](code-url)
+
   </div>
 </div>
 ```
@@ -84,41 +94,72 @@ Add new papers to the Publications section:
 ### Adding Paper Images
 
 1. Place paper-related images in the `images/papers/` directory
-2. Recommended size: Width 400px, Height 200px, Format PNG/JPG
+2. **Recommended size**: Width 400px, Height 180px, Format PNG/JPG
 3. File naming suggestion: `paper-abbreviation.png`
+4. **Note**: All paper images will be automatically resized to 400px × 180px for consistency
+
+### Image Size Guidelines
+
+**Different types of images have different size requirements:**
+
+- **Paper Images** (`images/papers/`): 400px × 180px
+  - Automatically enforced by CSS
+  - Use `object-fit: fill` to maintain consistent display
+  
+- **Institution Logos** (`images/`): 120px × 120px
+  - For work experience and education sections
+  - Use `object-fit: contain` to preserve aspect ratio
+  
+- **Profile Photo**: Recommended square format
+  - Will be displayed as circular avatar
+  
+- **Other Icons**: Various sizes as needed
 
 ### Customizing Styles
 
-**Custom Styling** - Edit `_sass/_modern.scss`:
-- Modify color scheme
-- Adjust layout spacing
-- Change font settings
+**Paper Box Styling** - Edit `assets/css/main.scss`:
+- Modify paper image dimensions
+- Adjust paper box layout
+- Change badge colors
 
-**Main Color Variables**:
+**Example Paper Image Size Adjustment**:
 ```scss
-:root {
-  --primary-color: #2563eb;     // Primary color
-  --text-primary: #1e293b;      // Primary text color
-  --bg-primary: #ffffff;        // Background color
+.paper-box-image img {
+    width: 400px;           // Image width
+    height: 180px;          // Image height
+    object-fit: fill;       // Force fill without aspect ratio
+    box-shadow: 3px 3px 6px #888;
 }
 ```
+
+**Additional Styling** - Edit `_pages/about.md` (bottom `<style>` section):
+- Override specific styles
+- Add responsive adjustments
+- Customize work experience logos
 
 ## 📁 Project Structure
 
 ```
 ├── _config.yml          # Site configuration
 ├── _pages/              
-│   └── about.md         # Homepage content
+│   └── about.md         # Homepage content (main page)
 ├── _layouts/            
-│   └── modern.html      # Modern layout template
-├── _sass/               
-│   └── _modern.scss     # Modern stylesheet
+│   └── default.html     # Default layout template
+├── _sass/               # Sass partials
+│   ├── _base.scss       # Base styles
+│   ├── _page.scss       # Page-specific styles
+│   └── ...              # Other style partials
 ├── assets/              
-│   └── js/modern.js     # Interactive scripts
+│   ├── css/
+│   │   └── main.scss    # Main stylesheet (paper-box styles)
+│   └── js/              # JavaScript files
 ├── images/              # Image resources
-│   ├── papers/          # Paper-related images
-│   └── *.png           # Profile photo, logos, etc.
-└── files/              # Document files (e.g., CV PDF)
+│   ├── papers/          # Paper-related images (400x180px)
+│   ├── *.png           # Profile photo, logos, etc.
+│   └── ...              # Other images
+├── files/              # Document files
+│   └── YuhangLu_resume.pdf  # CV PDF
+└── _includes/          # Reusable page components
 ```
 
 ## 🔧 Common Commands

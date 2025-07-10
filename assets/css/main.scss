@@ -10,10 +10,25 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+// @import "vendor/breakpoint/breakpoint"; // media query mixins - commented out for GitHub Pages compatibility
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
+
+// Simple breakpoint mixin for GitHub Pages compatibility
+@mixin breakpoint($point) {
+  @if $point == $small {
+    @media (min-width: 600px) { @content; }
+  } @else if $point == $medium {
+    @media (min-width: 768px) { @content; }
+  } @else if $point == $large {
+    @media (min-width: 925px) { @content; }
+  } @else if $point == $x-large {
+    @media (min-width: 1280px) { @content; }
+  } @else {
+    @media (min-width: $point) { @content; }
+  }
+}
 
 @import "reset";
 @import "base";
