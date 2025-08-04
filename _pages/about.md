@@ -135,7 +135,7 @@ Location: Shanghai, China
 <div class='logo'><img src='images/HKU_logo.png' alt="HKU"></div>
 <div class='content' markdown="1">
 
-<span style="font-size:16px;">**The University of Hong Kong**</span>
+<span style="font-size:16px;">**The University of Hong Kong (HKU)**</span>
 
 October 2025 - Present
 
