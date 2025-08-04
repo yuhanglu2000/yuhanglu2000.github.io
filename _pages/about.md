@@ -11,9 +11,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About me
-I am currently a Research Intern at the [OpenDriveLab](https://opendrivelab.com/), working under the supervision of Prof. [Hongyang Li](https://lihongyang.info/). Previously, I was a Research Assistant at [4DVLab](https://4dvlab.github.io/), supervised by Prof. [Yuexin Ma](https://yuexinma.me/), where I also collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/).
-
-I earned my BSc with first-class honours from the dual-degree program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/).
+I am an incoming PhD student at The University of Hong Kong, advised by Prof [Hongyang Li](https://lihongyang.info/) and Prof [Bin Chen](https://www.arch.hku.hk/staff/dla/chen-bin/). Before joining HKU, I worked as as a Research Assistant at [4DVLab](https://4dvlab.github.io/) with Prof. [Yuexin Ma](https://yuexinma.me/), where I collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/). I earned my BSc with first-class honours from the dual-degree program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/).
 
 My work focuses on enabling AI to perceive the 3D world like humans by developing **highly generalizable**, **interpretable**, and **evolvable** 3D understanding algorithms.
 
@@ -134,6 +132,19 @@ Location: Shanghai, China
 # 📖 Education
 
 <div class='work-education-box'>
+<div class='logo'><img src='images/HKU_logo.png' alt="HKU"></div>
+<div class='content' markdown="1">
+
+<span style="font-size:16px;">**The University of Hong Kong**</span>
+
+October 2025 - Present
+
+Ph.D. in Musketeers Foundation Institute of Data Science
+
+</div>
+</div>
+
+<div class='work-education-box'>
 <div class='logo'><img src='images/BUPT_logo.jpeg' alt="BUPT"></div>
 <div class='content' markdown="1">
 
@@ -161,7 +172,7 @@ Major: B.E. in Internet of Things Engineering (first-class degree)
 
 # 🌟 Miscellaneous
 ## Academic Services
-I served as a reviewer for top-tier conference such as ICCV, NeurIPS ...
+I served as a reviewer for top-tier conference such as ICCV, NeurIPS, AAAI ...
 
 ## Hobbies
 Love: 🎱Billiards (Chinese 8 ball and Snooker), 🏀basketball and 🏃jogging
