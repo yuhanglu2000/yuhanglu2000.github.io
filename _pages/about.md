@@ -13,7 +13,7 @@ redirect_from:
 # About me
 I am an incoming PhD student at The University of Hong Kong, advised by Prof [Hongyang Li](https://lihongyang.info/) and Prof [Bin Chen](https://www.arch.hku.hk/staff/dla/chen-bin/). Before joining HKU, I worked as as a Research Assistant at [4DVLab](https://4dvlab.github.io/) with Prof. [Yuexin Ma](https://yuexinma.me/), where I collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/). I earned my BSc with first-class honours from the dual-degree program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/).
 
-My work focuses on enabling AI to perceive the 3D world like humans by developing **highly generalizable**, **interpretable**, and **evolvable** 3D understanding algorithms.
+My work focuses on enabling AI to understand the 3D world like humans do, particularly in the field of autonomous driving, by developing algorithms with high **generalizability**, **interpretability**, and **evolvability**.
 
 You can find my CV here: [Yuhang Lu's Curriculum Vitae](files/YuhangLu_resume.pdf)
 
@@ -100,14 +100,14 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 # 💻 Work Experience
 
 <div class='work-education-box'>
-<div class='logo'><img src='images/OpenDriveLab_logo.png' alt="OpenDriveLab"></div>
+<div class='logo'><img src='images/PJLab.jpg' alt="PJLab"></div>
 <div class='content' markdown="1">
 
-<span style="font-size:16px;">**OpenDriveLab, Shanghai AI Lab**</span>
+<span style="font-size:16px;">**Shanghai Artificial Intelligence Laboratory**</span>
 
 June 2025 - Present
 
-Position: Research Intern (Supervisor: Hongyang Li)
+Position: Research Intern (Supervisor: Li Chen)
 
 Location: Shanghai, China
 
@@ -131,44 +131,17 @@ Location: Shanghai, China
 
 # 📖 Education
 
-<div class='work-education-box'>
-<div class='logo'><img src='images/HKU_logo.png' alt="HKU"></div>
-<div class='content' markdown="1">
+- **The University of Hong Kong (HKU)**
+  - Ph.D., Musketeers Foundation Institute of Data Science
+  - October 2025 – Present
 
-<span style="font-size:16px;">**The University of Hong Kong (HKU)**</span>
+- **Beijing University of Posts and Telecommunications (BUPT)**
+  - B.E., Internet of Things Engineering
+  - September 2018 – July 2022
 
-October 2025 - Present
-
-Ph.D. in Musketeers Foundation Institute of Data Science
-
-</div>
-</div>
-
-<div class='work-education-box'>
-<div class='logo'><img src='images/BUPT_logo.jpeg' alt="BUPT"></div>
-<div class='content' markdown="1">
-
-<span style="font-size:16px;">**Beijing University of Posts and Telecommunications (BUPT)**</span>
-
-September 2018 - July 2022
-
-Major: B.E. in Internet of Things Engineering
-
-</div>
-</div>
-
-<div class='work-education-box'>
-<div class='logo'><img src='images/QMUL_logo.png' alt="QMUL"></div>
-<div class='content' markdown="1">
-
-<span style="font-size:16px;">**Queen Mary University of London (QMUL)**</span>
-
-September 2018 - July 2022
-
-Major: B.E. in Internet of Things Engineering (first-class degree)
-
-</div>
-</div>
+- **Queen Mary University of London (QMUL)**
+  - B.E., Internet of Things Engineering (First-class degree)
+  - September 2018 – July 2022
 
 # 🌟 Miscellaneous
 ## Academic Services
