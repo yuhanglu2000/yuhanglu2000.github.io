@@ -105,7 +105,7 @@ Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 
 
 <span style="font-size:16px;">**Shanghai Artificial Intelligence Laboratory**</span>
 
-June 2025 - Present
+June 2025 - September 2025
 
 Position: Research Intern (Supervisor: Li Chen)
 
@@ -148,7 +148,7 @@ Location: Shanghai, China
 I served as a reviewer for top-tier conference such as ICCV, NeurIPS, AAAI ...
 
 ## Hobbies
-Love: 🎱Billiards (Chinese 8 ball and Snooker), 🏀basketball and 🏃jogging
+Love: 🎱Billiards (Chinese 8 ball and Pool), 🏀basketball and 🏃jogging
 
 <style>
 /* 统一论文图片尺寸 */
