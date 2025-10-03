@@ -11,7 +11,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About me
-I am an am a first-year Ph.D. student at [HKU MMLab](https://mmlab.hk/), co-advised by Prof [Hongyang Li](https://lihongyang.info/) and Prof [Bin Chen](https://www.arch.hku.hk/staff/dla/chen-bin/). Before joining HKU, I worked as as a Research Assistant at [4DVLab](https://4dvlab.github.io/) with Prof. [Yuexin Ma](https://yuexinma.me/), where I collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/). I earned my BSc with first-class honours from the dual-degree program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/).
+I am a first-year Ph.D. student at [HKU MMLab](https://mmlab.hk/), co-advised by Prof [Hongyang Li](https://lihongyang.info/) and Prof [Bin Chen](https://www.arch.hku.hk/staff/dla/chen-bin/). Before joining HKU, I worked as as a Research Assistant at [4DVLab](https://4dvlab.github.io/) with Prof. [Yuexin Ma](https://yuexinma.me/), where I collaborated closely with Dr. [Xinge Zhu](https://xingezhu.me/). I earned my BSc with first-class honours from the dual-degree program between [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) and [Queen Mary University of London](https://www.qmul.ac.uk/).
 
 My work focuses on enabling AI to understand the 3D world like humans do, particularly in the field of autonomous driving, by developing algorithms with high **generalizability**, **interpretability**, and **evolvability**.
 
