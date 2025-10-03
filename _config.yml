@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "About me"
-description              : "PhD Student @ OpenDriveLab, HKU"
+description              : "PhD Student @ HKU"
 repository               : "yuhanglu2000/yuhanglu2000.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yuhang Lu 陆宇航"
-  avatar           : "images/YuhangLu_profile.png"
+  avatar           : "images/profile_photo.png"
   bio              : 
-  location         : "Shanghai, China"
+  location         : "Hong Kong SAR, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=HiwDOksAAAAJ"
-  email            : "luyuhang@opendrivelab.com"
+  email            : "lu.yuhang@connect.hku.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
