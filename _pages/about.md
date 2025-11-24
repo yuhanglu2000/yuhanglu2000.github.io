@@ -145,7 +145,7 @@ Location: Shanghai, China
 
 # 🌟 Miscellaneous
 ## Academic Services
-I served as a reviewer for top-tier conference such as ICCV, NeurIPS, AAAI ...
+I served as a reviewer for top-tier conference such as CVPR, ICCV, NeurIPS, AAAI, ICRA, etc
 
 ## Hobbies
 Love: 🎱Billiards (Chinese 8 ball and Pool), 🏀basketball and 🏃jogging
