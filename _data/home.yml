@@ -28,28 +28,23 @@ news:
     text: Introduced IDKB, a large-scale vision-language benchmark for professional driving knowledge.
 experience:
   - organization: Shanghai Artificial Intelligence Laboratory
-    logo: /images/PJLab.jpg
     role: Research Intern
     period: June 2025 - September 2025
     location: Shanghai, China
     detail: Supervised by Li Chen.
   - organization: ShanghaiTech University
-    logo: /images/ShanghaiTech_logo.png
     role: Research Assistant
     period: August 2022 - April 2025
     location: Shanghai, China
     detail: Supervised by Yuexin Ma.
 education:
   - organization: The University of Hong Kong
-    logo: /images/HKU_logo.png
     degree: Ph.D., School of Computing and Data Science
     period: October 2025 - Present
   - organization: Beijing University of Posts and Telecommunications
-    logo: /images/BUPT_logo.jpeg
     degree: B.E., Internet of Things Engineering
     period: September 2018 - July 2022
   - organization: Queen Mary University of London
-    logo: /images/QMUL_logo.png
     degree: B.E., Internet of Things Engineering (First-class honours)
     period: September 2018 - July 2022
 misc:
