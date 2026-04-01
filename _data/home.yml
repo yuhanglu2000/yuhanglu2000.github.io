@@ -41,11 +41,8 @@ education:
   - organization: The University of Hong Kong
     degree: Ph.D., School of Computing and Data Science
     period: October 2025 - Present
-  - organization: Beijing University of Posts and Telecommunications
-    degree: B.E., Internet of Things Engineering
-    period: September 2018 - July 2022
-  - organization: Queen Mary University of London
-    degree: B.E., Internet of Things Engineering (First-class honours)
+  - organization: Beijing University of Posts and Telecommunications & Queen Mary University of London
+    degree: Joint B.E. Program in Internet of Things Engineering (First-class honours)
     period: September 2018 - July 2022
 misc:
   service: >-
