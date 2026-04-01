@@ -1,198 +1,80 @@
-# Personal Academic Homepage
+# Yuhang Lu's Personal Homepage
 
-This is **Yuhang Lu (陆宇航)**'s personal academic homepage.
+This repository contains the source code for my personal academic homepage:
 
-🌐 **Live Demo**: [https://yuhanglu2000.github.io](https://yuhanglu2000.github.io)
+[https://yuhanglu2000.github.io](https://yuhanglu2000.github.io)
 
-## ✨ Recent Updates
+The site is a lightweight Jekyll-based personal website hosted on GitHub Pages. It includes a short bio, news, selected publications, experience, education, and contact information.
 
-- **Image Consistency**: All paper images now display at consistent 400px × 180px dimensions
-- **Layout Optimization**: Improved spacing between paper images and text content
-- **Logo Enhancement**: Institution logos in work experience and education sections enlarged to 120px × 120px
+## What Is In This Repo
 
-## 🚀 Quick Start
+- [`_config.yml`](./_config.yml): site metadata, author information, and Jekyll configuration.
+- [`index.html`](./index.html): the main homepage layout and section structure.
+- [`_data/home.yml`](./_data/home.yml): homepage content such as bio, news, experience, education, and contact text.
+- [`_data/publications.yml`](./_data/publications.yml): selected publication entries.
+- [`assets/css/main.scss`](./assets/css/main.scss): site styling.
+- [`assets/js/site.js`](./assets/js/site.js): small interactive behaviors such as active navigation highlighting.
+- [`images/`](./images): profile photo, favicons, and publication preview images.
+- [`files/`](./files): downloadable files such as the CV.
 
-### Local Development
+## How To Edit The Site
 
-1. **Install Dependencies**
-   ```bash
-   bundle install --path vendor/bundle
-   ```
+### Update content
 
-2. **Start Local Server**
-   ```bash
-   bundle exec jekyll serve --host 0.0.0.0 --port 4000
-   ```
+- Edit [`_data/home.yml`](./_data/home.yml) to change the biography, research interests, news, experience, education, hobbies, and contact text.
+- Edit [`_data/publications.yml`](./_data/publications.yml) to add, remove, or reorder publications.
+- Edit [`_config.yml`](./_config.yml) to update site-wide metadata such as name, email, homepage URL, and social links.
 
-3. **Preview**
-   - Open your browser and visit `http://localhost:4000`
+### Update structure or design
 
-### Build and Deploy
+- Edit [`index.html`](./index.html) to change section order, headings, or markup.
+- Edit [`assets/css/main.scss`](./assets/css/main.scss) to change layout, typography, spacing, and colors.
+- Edit [`assets/js/site.js`](./assets/js/site.js) if you want to adjust the page interactions.
 
-```bash
-# Build static files
-bundle exec jekyll build
+### Update assets
 
-# Clean cache (if needed)
-bundle exec jekyll clean
-```
+- Replace [`images/profile_photo.jpg`](./images/profile_photo.jpg) for the homepage portrait.
+- Put publication preview images in [`images/papers/`](./images/papers).
+- Replace [`files/YuhangLu_resume.pdf`](./files/YuhangLu_resume.pdf) if the CV changes.
 
-## ✏️ Content Modification
+## Local Development
 
-### Basic Information
-
-**Personal Information Configuration** - Edit `_config.yml`:
-```yaml
-author:
-  name: "Your Name"
-  bio: "Your Bio"
-  location: "Your City"
-  email: "your.email@example.com"
-  googlescholar: "Google Scholar URL"
-  github: "GitHub Username"
-  # ... other social links
-```
-
-### Homepage Content
-
-**Modify Homepage Content** - Edit `_pages/about.md`:
-
-- **About Me**: Update the About Me section text
-- **Latest News**: Add/modify Latest News items
-- **Publications**: Add new papers to Publications section
-- **Work Experience**: Update work experience entries
-- **Education**: Modify education section
-- **Logo Images**: Work experience and education logos (120x120px)
-- **Paper Images**: Publications images (400x180px, auto-resized for consistency)
-
-### Adding New Publications
-
-Add new papers to the Publications section in `_pages/about.md`:
-
-```html
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">Conference Year</div>
-      <img src='images/papers/paper-image.png' alt="Paper Title">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-<span style="font-size:18px;">**Paper Title**</span>
-
-Author List
-
-Conference/Journal Name
-
-[[Paper]](paper-url) [[Code]](code-url)
-
-  </div>
-</div>
-```
-
-### Adding Paper Images
-
-1. Place paper-related images in the `images/papers/` directory
-2. **Recommended size**: Width 400px, Height 180px, Format PNG/JPG
-3. File naming suggestion: `paper-abbreviation.png`
-4. **Note**: All paper images will be automatically resized to 400px × 180px for consistency
-
-### Image Size Guidelines
-
-**Different types of images have different size requirements:**
-
-- **Paper Images** (`images/papers/`): 400px × 180px
-  - Automatically enforced by CSS
-  - Use `object-fit: fill` to maintain consistent display
-  
-- **Institution Logos** (`images/`): 120px × 120px
-  - For work experience and education sections
-  - Use `object-fit: contain` to preserve aspect ratio
-  
-- **Profile Photo**: Recommended square format
-  - Will be displayed as circular avatar
-  
-- **Other Icons**: Various sizes as needed
-
-### Customizing Styles
-
-**Paper Box Styling** - Edit `assets/css/main.scss`:
-- Modify paper image dimensions
-- Adjust paper box layout
-- Change badge colors
-
-**Example Paper Image Size Adjustment**:
-```scss
-.paper-box-image img {
-    width: 400px;           // Image width
-    height: 180px;          // Image height
-    object-fit: fill;       // Force fill without aspect ratio
-    box-shadow: 3px 3px 6px #888;
-}
-```
-
-**Additional Styling** - Edit `_pages/about.md` (bottom `<style>` section):
-- Override specific styles
-- Add responsive adjustments
-- Customize work experience logos
-
-## 📁 Project Structure
-
-```
-├── _config.yml          # Site configuration
-├── _pages/              
-│   └── about.md         # Homepage content (main page)
-├── _layouts/            
-│   └── default.html     # Default layout template
-├── _sass/               # Sass partials
-│   ├── _base.scss       # Base styles
-│   ├── _page.scss       # Page-specific styles
-│   └── ...              # Other style partials
-├── assets/              
-│   ├── css/
-│   │   └── main.scss    # Main stylesheet (paper-box styles)
-│   └── js/              # JavaScript files
-├── images/              # Image resources
-│   ├── papers/          # Paper-related images (400x180px)
-│   ├── *.png           # Profile photo, logos, etc.
-│   └── ...              # Other images
-├── files/              # Document files
-│   └── YuhangLu_resume.pdf  # CV PDF
-└── _includes/          # Reusable page components
-```
-
-## 🔧 Common Commands
+### 1. Install dependencies
 
 ```bash
-# Install dependencies
-bundle install --path vendor/bundle
+bundle install
+```
 
-# Local development
+### 2. Start a local preview server
+
+```bash
 bundle exec jekyll serve --host 0.0.0.0 --port 4000
-
-# Build website
-bundle exec jekyll build
-
-# Clean cache
-bundle exec jekyll clean
-
-# Check Jekyll version
-bundle exec jekyll --version
 ```
 
-## 📝 Update Workflow
+You can also use:
 
-1. **Modify Content** - Edit corresponding Markdown or configuration files
-2. **Local Preview** - Start local server to check changes
-3. **Commit Changes**
-   ```bash
-   git add .
-   git commit -m "Describe your changes"
-   git push origin main
-   ```
-4. **Auto Deploy** - GitHub Pages will automatically build and deploy updates
+```bash
+./run_server.sh
+```
 
-## 📄 License
+### 3. Open the site
 
-This project is open sourced under the MIT License.
+Visit [http://localhost:4000](http://localhost:4000).
+
+## Build
+
+```bash
+bundle exec jekyll build
+```
+
+Jekyll will generate the static site into `_site/`. That directory is build output and should not be treated as source content.
+
+## Notes
+
+- This repo is intentionally simple and content-first.
+- Most text updates only require editing YAML files in [`_data/`](./_data).
+- The homepage is a single-page site, so most structural changes happen in [`index.html`](./index.html).
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
