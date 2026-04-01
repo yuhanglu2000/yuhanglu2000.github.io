@@ -1,0 +1,63 @@
+hero:
+  bio: >-
+    I am a first-year Ph.D. student at [HKU MMLab](https://mmlab.hk/), co-advised
+    by Prof. [Hongyang Li](https://lihongyang.info/) and Prof.
+    [Bin Chen](https://www.arch.hku.hk/staff/dla/chen-bin/). Before joining HKU,
+    I worked as a Research Assistant at [4DVLab](https://4dvlab.github.io/) with
+    Prof. [Yuexin Ma](https://yuexinma.me/), collaborating closely with Dr.
+    [Xinge Zhu](https://xingezhu.me/). I received my B.Sc. with first-class
+    honours from the dual-degree program between
+    [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/)
+    and [Queen Mary University of London](https://www.qmul.ac.uk/).
+  research_interest: >-
+    My current research focuses on Physical AI, especially embodied intelligence
+    and video generation. More broadly, I am interested in how machines can
+    build reliable world understanding from visual and 3D observations, with
+    strong generalization, interpretability, and evolvability.
+  portrait: /images/profile_photo.jpg
+news:
+  - date: Oct 2025
+    text: Started my Ph.D. at HKU MMLab.
+  - date: Jun 2025
+    text: ReAL-AD was accepted by ICCV 2025.
+  - date: Dec 2024
+    text: IDKB was accepted by AAAI 2025.
+  - date: Sep 2024
+    text: OctreeOcc was accepted by NeurIPS 2024.
+  - date: Sep 2024
+    text: Introduced IDKB, a large-scale vision-language benchmark for professional driving knowledge.
+experience:
+  - organization: Shanghai Artificial Intelligence Laboratory
+    logo: /images/PJLab.jpg
+    role: Research Intern
+    period: June 2025 - September 2025
+    location: Shanghai, China
+    detail: Supervised by Li Chen.
+  - organization: ShanghaiTech University
+    logo: /images/ShanghaiTech_logo.png
+    role: Research Assistant
+    period: August 2022 - April 2025
+    location: Shanghai, China
+    detail: Supervised by Yuexin Ma.
+education:
+  - organization: The University of Hong Kong
+    logo: /images/HKU_logo.png
+    degree: Ph.D., School of Computing and Data Science
+    period: October 2025 - Present
+  - organization: Beijing University of Posts and Telecommunications
+    logo: /images/BUPT_logo.jpeg
+    degree: B.E., Internet of Things Engineering
+    period: September 2018 - July 2022
+  - organization: Queen Mary University of London
+    logo: /images/QMUL_logo.png
+    degree: B.E., Internet of Things Engineering (First-class honours)
+    period: September 2018 - July 2022
+misc:
+  service: >-
+    I serve as a reviewer for CVPR, ICCV, NeurIPS, AAAI, ICRA, and related venues.
+  hobbies: >-
+    Outside research, I enjoy billiards and jogging.
+contact:
+  message: >-
+    I am always happy to connect about Physical AI, video generation, 3D
+    vision, and related research collaborations.

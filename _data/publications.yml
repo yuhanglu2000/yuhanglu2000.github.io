@@ -1,0 +1,49 @@
+- title: "ReAL-AD: Towards Human-Like Reasoning in End-to-End Autonomous Driving"
+  badge: ICCV 2025
+  contribution: First author
+  image: /images/papers/ReAL-AD.png
+  authors: "**Yuhang Lu**, Jiadong Tu, Xinge Zhu, Yuexin Ma"
+  venue: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2025
+  links: []
+- title: "RenderWorld: World Model with Self-Supervised 3D Label"
+  badge: ICRA 2025
+  contribution: Co-author
+  image: /images/papers/RenderWorld.png
+  authors: Ziyang Yan, Wenzhen Dong, Yihua Shao, **Yuhang Lu**, Liu Haiyang, Jingwen Liu, Haozhe Wang, Zhe Wang, Yan Wang, Fabio Remondino, Yuexin Ma
+  venue: 2025 IEEE International Conference on Robotics and Automation (ICRA 2025)
+  links:
+    - label: Paper
+      url: https://arxiv.org/pdf/2409.11356
+- title: "Can LVLMs Obtain a Driver's License? A Benchmark Towards Reliable AGI for Autonomous Driving"
+  badge: AAAI 2025
+  contribution: Co-first author
+  image: /images/papers/IDKB.png
+  authors: "**Yuhang Lu***, Yichen Yao*, Jiadong Tu*, Jiangnan Shao*, Yuexin Ma, Xinge Zhu"
+  venue: Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)
+  links:
+    - label: Project
+      url: https://4dvlab.github.io/project_page/idkb.html
+    - label: Paper
+      url: https://arxiv.org/pdf/2409.02914
+- title: "OctreeOcc: Efficient and Multi-Granularity Occupancy Prediction Using Octree Queries"
+  badge: NeurIPS 2024
+  contribution: First author
+  image: /images/papers/OctreeOcc.png
+  authors: "**Yuhang Lu**, Xinge Zhu, Tai Wang, Yuexin Ma"
+  venue: Conference on Neural Information Processing Systems (NeurIPS), 2024
+  links:
+    - label: Paper
+      url: https://arxiv.org/pdf/2312.03774.pdf
+    - label: Code
+      url: https://github.com/4DVLab/OctreeOcc
+- title: "See More and Know More: Zero-shot Point Cloud Segmentation via Multi-modal Visual Data"
+  badge: ICCV 2023
+  contribution: Co-first author
+  image: /images/papers/SeeMoreKnowMore.png
+  authors: "**Yuhang Lu***, Qi Jiang*, Runnan Chen, Yuenan Hou, Xinge Zhu, Yuexin Ma"
+  venue: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023
+  links:
+    - label: Paper
+      url: https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.pdf
+    - label: Code
+      url: https://github.com/4DVLab/SeeMoreKnowMore

@@ -1,0 +1,173 @@
+---
+layout: default
+title: Yuhang Lu
+description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelligence, and 3D world understanding.
+---
+
+{% assign home = site.data.home %}
+
+<section class="hero section" id="home">
+  <div class="container hero__grid">
+    <div class="hero__portrait">
+      <img src="{{ home.hero.portrait | relative_url }}" alt="Portrait of {{ site.author.name }}">
+    </div>
+    <div class="hero__copy">
+      <h1 class="hero__title">
+        {{ site.author.name }}
+        {% if site.author.alt_name %}
+          <span>{{ site.author.alt_name }}</span>
+        {% endif %}
+      </h1>
+      <div class="hero__bio">
+        {{ home.hero.bio | markdownify }}
+      </div>
+      <div class="hero__bio">
+        <p><strong>Research Interests.</strong> {{ home.hero.research_interest }}</p>
+      </div>
+      <div class="inline-links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ '/files/YuhangLu_resume.pdf' | relative_url }}" target="_blank" rel="noreferrer">CV</a>
+        {% if site.author.googlescholar %}
+          <a href="{{ site.author.googlescholar }}" target="_blank" rel="noreferrer">Google Scholar</a>
+        {% endif %}
+        {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">GitHub</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="news">
+  <div class="container">
+    <div class="section-heading">
+      <h2>News</h2>
+    </div>
+    <div class="news-block">
+      <ul class="news-list">
+        {% for item in home.news %}
+          <li>
+            <span>{{ item.date }}</span>
+            <p>{{ item.text }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Selected Publications</h2>
+      <p>* indicates equal contribution.</p>
+    </div>
+    <div class="publication-list">
+      {% for publication in site.data.publications %}
+        <article class="publication-item">
+          <div class="publication-item__media">
+            <div class="publication-item__frame">
+              <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview">
+            </div>
+          </div>
+          <div class="publication-item__body">
+            <p class="publication-item__meta">{{ publication.badge }} · {{ publication.contribution }}</p>
+            <h3>{{ publication.title }}</h3>
+            <p class="publication-item__authors">{{ publication.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</p>
+            <p class="publication-item__venue">{{ publication.venue }}</p>
+            {% if publication.links and publication.links.size > 0 %}
+              <div class="inline-links">
+                {% for link in publication.links %}
+                  <a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Experience</h2>
+    </div>
+    <div class="entry-stack">
+      {% for item in home.experience %}
+        <article class="entry-row">
+          <div class="entry-row__period-block">
+            <p class="entry-row__period">{{ item.period }}</p>
+          </div>
+          <div class="entry-row__content entry-row__content--compact">
+            <p class="entry-row__line">
+              <span class="entry-row__org">{{ item.organization }}</span>
+              <span class="entry-row__sep">·</span>
+              <span class="entry-row__meta">{{ item.location }}</span>
+            </p>
+            <p class="entry-row__line">
+              <span class="entry-row__title">{{ item.role }}</span>
+              <span class="entry-row__sep">·</span>
+              <span class="entry-row__detail">{{ item.detail }}</span>
+            </p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="education">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Education</h2>
+    </div>
+    <div class="entry-stack">
+      {% for item in home.education %}
+        <article class="entry-row">
+          <div class="entry-row__period-block">
+            <p class="entry-row__period">{{ item.period }}</p>
+          </div>
+          <div class="entry-row__content">
+            <h4>{{ item.organization }}</h4>
+            <p class="entry-row__title">{{ item.degree }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="misc">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Miscellaneous</h2>
+    </div>
+    <div class="misc-list">
+      <article class="misc-item">
+        <h3>Academic Service</h3>
+        <p>{{ home.misc.service }}</p>
+      </article>
+      <article class="misc-item">
+        <h3>Beyond Research</h3>
+        <p>{{ home.misc.hobbies }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--compact" id="contact">
+  <div class="container">
+    <div class="contact-block">
+      <h2>Contact</h2>
+      <p>{{ home.contact.message }}</p>
+      <div class="inline-links">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <p>{{ site.author.name }}{% if site.author.alt_name %} / {{ site.author.alt_name }}{% endif %} · {{ site.description }} · <span data-current-year></span></p>
+    </footer>
+  </div>
+</section>
