@@ -10,9 +10,9 @@ hero:
     [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/)
     and [Queen Mary University of London](https://www.qmul.ac.uk/).
   research_interest: >-
-    My current research focuses on Physical AI, especially embodied intelligence
-    and video generation. More broadly, I am interested in how machines can
-    build reliable world understanding from visual and 3D observations, with
+    My current research focuses on Physical AI, especially humanoid robotics
+    and autonomous driving. More broadly, I am interested in how robotics can
+    build reliable world understanding and decision-making capabilities from visual observations, with
     strong generalization, interpretability, and evolvability.
   portrait: /images/profile_photo.jpg
 news:
@@ -27,6 +27,16 @@ news:
   - date: Sep 2024
     text: Introduced IDKB, a large-scale vision-language benchmark for professional driving knowledge.
 experience:
+  - organization: Booster Robotics
+    role: Research Intern
+    period: Apr 2026 - Present
+    location: Shanghai, China
+    detail: Supervised by Li Chen.
+  - organization: Huawei Technologies Co., Ltd. 
+    role: Research Intern
+    period: January 2026 - April 2026
+    location: Shanghai, China
+    detail: Supervised by Li Chen.
   - organization: Shanghai Artificial Intelligence Laboratory
     role: Research Intern
     period: June 2025 - September 2025
