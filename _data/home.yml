@@ -9,13 +9,14 @@ hero:
     honours from the dual-degree program between
     [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/)
     and [Queen Mary University of London](https://www.qmul.ac.uk/).
-  research_interest: >-
-    My current research focuses on Physical AI, especially humanoid robotics
-    and autonomous driving. More broadly, I am interested in how robotics can
-    build reliable world understanding and decision-making capabilities from visual observations, with
-    strong generalization, interpretability, and evolvability.
+  research_interests:
+    - Physical AI, especially humanoid robotics and autonomous driving.
+    - Humanoid robot foundation models with transferability, compositionality, and contact awareness.
+    - 3D understanding under distribution shift, limited supervision, and long-tail scenarios.
   portrait: /images/profile_photo.jpg
 news:
+  - date: Feb 2026
+    text: DriveCombo was accepted by CVPR 2026.
   - date: Oct 2025
     text: Started my Ph.D. at HKU MMLab.
   - date: Jun 2025
@@ -29,7 +30,7 @@ news:
 experience:
   - organization: Booster Robotics
     role: Research Intern
-    period: Apr 2026 - Present
+    period: April 2026 - Present
     location: Beijing, China
     detail: Supervised by Chaoyi Li.
   - organization: Huawei Technologies Co., Ltd. 
@@ -56,10 +57,10 @@ education:
     period: September 2018 - July 2022
 misc:
   service: >-
-    I serve as a reviewer for CVPR, ICCV, NeurIPS, AAAI, ICRA, and related venues.
+    I serve as a reviewer for CVPR, ICCV, ECCV, NeurIPS, AAAI, ICRA, and related venues.
   hobbies: >-
     Outside research, I enjoy billiards and jogging.
 contact:
   message: >-
-    I am always happy to connect about Physical AI, video generation, 3D
-    vision, and related research collaborations.
+    I am always happy to connect about Physical AI, humanoid robot, 3D
+    vision, and related research collaborations. Feel free to reach out to me via email.

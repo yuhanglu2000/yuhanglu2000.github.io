@@ -21,10 +21,17 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
       <div class="hero__bio">
         {{ home.hero.bio | markdownify }}
       </div>
-      <div class="hero__bio">
-        <p><strong>Research Interests.</strong> {{ home.hero.research_interest }}</p>
-      </div>
-      <div class="inline-links">
+      {% if home.hero.research_interests %}
+        <div class="hero__interests">
+          <h2>Research Interests</h2>
+          <ul>
+            {% for interest in home.hero.research_interests %}
+              <li>{{ interest }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      <div class="inline-links hero__links">
         <a href="mailto:{{ site.author.email }}">Email</a>
         <a href="{{ '/files/YuhangLu_resume.pdf' | relative_url }}" target="_blank" rel="noreferrer">CV</a>
         {% if site.author.googlescholar %}
@@ -60,13 +67,13 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
   <div class="container">
     <div class="section-heading">
       <h2>Selected Publications</h2>
-      <p>* indicates equal contribution.</p>
+      <p class="section-note"><span class="equal-contribution">*</span> indicates equal contribution.</p>
     </div>
     <div class="publication-list">
       {% for publication in site.data.publications %}
         <article class="publication-item">
           <div class="publication-item__media">
-            <div class="publication-item__frame">
+            <div class="publication-item__frame{% if publication.image_variant %} publication-item__frame--{{ publication.image_variant }}{% endif %}">
               <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview">
             </div>
           </div>
