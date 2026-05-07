@@ -15,7 +15,7 @@
   contribution: Co-author
   image: /images/papers/DriveCombo.png
   authors: Enhui Ma<span class="equal-contribution">*</span>, Jiahuan Zhang<span class="equal-contribution">*</span>, Guantian Zheng, Tao Tang, Shengbo Eben Li, **Yuhang Lu**, Xia Zhou, Xueyang Zhang, Yifei Zhan, Kun Zhan, Zhihui Hao, Xianpeng Lang, Kaicheng Yu
-  venue: Conference on Computer Vision and Pattern Recognition 2026
+  venue: The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
   links:
     - label: Paper
       url: https://arxiv.org/pdf/2603.01637

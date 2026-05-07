@@ -45,20 +45,27 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
   </div>
 </section>
 
-<section class="section" id="news">
-  <div class="container">
-    <div class="section-heading">
+<section class="section section--news" id="news">
+  <div class="container news-layout">
+    <div class="section-heading news-heading">
+      <p class="section-kicker">Latest Updates</p>
       <h2>News</h2>
     </div>
-    <div class="news-block">
-      <ul class="news-list">
+    <div class="news-frame">
+      <div class="news-block" tabindex="0" aria-label="Recent news updates">
+        <ol class="news-list">
         {% for item in home.news %}
-          <li>
-            <span>{{ item.date }}</span>
-            <p>{{ item.text }}</p>
+          <li class="news-item">
+            <div class="news-item__date">
+              <span>{{ item.date }}</span>
+            </div>
+            <div class="news-item__content">
+              <p>{{ item.text }}</p>
+            </div>
           </li>
         {% endfor %}
-      </ul>
+        </ol>
+      </div>
     </div>
   </div>
 </section>
