@@ -15,6 +15,8 @@ hero:
     - 3D understanding under distribution shift, limited supervision, and long-tail scenarios.
   portrait: /images/profile_photo.jpg
 news:
+  - date: Apr 2026
+    text: WorldEngine is open-sourced! The missing infrastructure for Physical AI post-training in Autonomous Driving.
   - date: Feb 2026
     text: DriveCombo was accepted by CVPR 2026.
   - date: Oct 2025
@@ -32,7 +34,7 @@ experience:
     role: Research Intern
     period: April 2026 - Present
     location: Beijing, China
-    detail: Supervised by Lei Xu
+    detail: Supervised by Rico Tilgner
   - organization: Huawei Technologies Co., Ltd. 
     role: Research Intern
     period: January 2026 - April 2026
