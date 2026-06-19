@@ -8,6 +8,8 @@
   links:
     - label: Project Page
       url: https://opendrivelab.com/RoboNaldo/
+    - label: Paper
+      url: https://arxiv.org/pdf/2606.11092
     - label: Code
       url: https://github.com/opendrivelab/RoboNaldo
 - title: "World Engine: Towards the Era of Post-Training for Physical AI"
@@ -20,6 +22,8 @@
   links:
     - label: Project Page
       url: https://opendrivelab.com/WorldEngine/
+    - label: Paper
+      url: https://arxiv.org/pdf/2606.19836
     - label: Code
       url: https://github.com/OpenDriveLab/WorldEngine
 - title: "DriveCombo: Benchmarking Compositional Traffic Rule Reasoning in Autonomous Driving"
@@ -30,7 +34,7 @@
   venue: The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
   links:
     - label: Paper
-      url: https://arxiv.org/pdf/2603.01637
+      url: https://openaccess.thecvf.com/content/CVPR2026/papers/Ma_DriveCombo_Benchmarking_Compositional_Traffic_Rule_Reasoning_in_Autonomous_Driving_CVPR_2026_paper.pdf
 - title: "ReAL-AD: Towards Human-Like Reasoning in End-to-End Autonomous Driving"
   badge: ICCV 2025
   contribution: First author
@@ -40,6 +44,8 @@
   links:
     - label: Project Page
       url: https://4dvlab.github.io/project_page/realad
+    - label: Paper
+      url: https://openaccess.thecvf.com/content/ICCV2025/papers/Lu_ReAL-AD_Towards_Human-Like_Reasoning_in_End-to-End_Autonomous_Driving_ICCV_2025_paper.pdf
 - title: "RenderWorld: World Model with Self-Supervised 3D Label"
   badge: ICRA 2025
   contribution: Co-author
@@ -58,6 +64,8 @@
   links:
     - label: Project Page
       url: https://4dvlab.github.io/project_page/idkb.html
+    - label: Paper
+      url: https://arxiv.org/pdf/2409.02914
     - label: Dataset
       url: https://github.com/4DVLab/IDKB
 - title: "OctreeOcc: Efficient and Multi-Granularity Occupancy Prediction Using Octree Queries"

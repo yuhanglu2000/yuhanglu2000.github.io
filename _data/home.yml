@@ -15,6 +15,8 @@ hero:
     - 3D understanding under distribution shift, limited supervision, and long-tail scenarios.
   portrait: /images/profile_photo.jpg
 news:
+  - date: Jun 2026
+    text: We release RoboNaldo, an accurate, stable and powerful humanoid soccer shooting policy!
   - date: Apr 2026
     text: WorldEngine is open-sourced! The missing infrastructure for Physical AI post-training in Autonomous Driving.
   - date: Feb 2026
