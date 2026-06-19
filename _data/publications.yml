@@ -17,7 +17,7 @@
   contribution: Co-author
   image: /images/papers/WorldEngine.png
   image_variant: strip
-  authors: 'Tianyu Li<span class="equal-contribution">*</span>, Li Chen<span class="equal-contribution">*</span>, Caojun Wang<span class="equal-contribution">*</span>, Haochen Liu<span class="equal-contribution">*</span>, Kashyap Chitta, **Yuhang Lu**, Naisheng Ye, Yufei Wang, Jiaxin Peng, Jin Pan, Zhaoyu Su, Andrei Bursuc, Shengbo Eben Li, Andreas Geiger, Honglin Bian, Hongyang Li<span class="equal-contribution">*</span>, Peng Su'
+  authors: 'Tianyu Li<span class="equal-contribution">*</span>, Li Chen<span class="equal-contribution">*</span>, Caojun Wang<span class="equal-contribution">*</span>, Haochen Liu<span class="equal-contribution">*</span>, Kashyap Chitta<span class="equal-contribution">*</span>, Zhenjie Yang<span class="equal-contribution">*</span>, **Yuhang Lu**, Naisheng Ye, Yufei Wang, Jiaxin Peng, Jin Pan, Zhaoyu Su, Andrei Bursuc, Shengbo Eben Li, Andreas Geiger, Honglin Bian, Hongyang Li<span class="equal-contribution">*</span>, Peng Su'
   venue: arXiv preprint, 2026
   links:
     - label: Project Page
