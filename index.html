@@ -32,13 +32,26 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
         </div>
       {% endif %}
       <div class="inline-links hero__links">
-        <a href="mailto:{{ site.author.email }}">Email</a>
-        <a href="{{ '/files/YuhangLu_resume.pdf' | relative_url }}" target="_blank" rel="noreferrer">CV</a>
+        <a href="mailto:{{ site.author.email }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>Email
+        </a>
+        <a href="{{ '/files/YuhangLu_resume.pdf' | relative_url }}" target="_blank" rel="noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>CV
+        </a>
         {% if site.author.googlescholar %}
-          <a href="{{ site.author.googlescholar }}" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="{{ site.author.googlescholar }}" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10H12m10 0l-3-3m3 3l-3 3M2 12a10 10 0 1 0 10-10"/></svg>Google Scholar
+          </a>
         {% endif %}
         {% if site.author.github %}
-          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub
+          </a>
+        {% endif %}
+        {% if site.author.twitter %}
+          <a href="https://x.com/{{ site.author.twitter }}" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.738l7.726-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>X / Twitter
+          </a>
         {% endif %}
       </div>
     </div>
@@ -78,11 +91,20 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
     </div>
     <div class="publication-list">
       {% for publication in site.data.publications %}
-        <article class="publication-item">
+        <article class="publication-item{% if publication.contribution == 'First author' or publication.contribution == 'Co-first author' %} publication-item--featured{% endif %}" data-reveal>
           <div class="publication-item__media">
-            <div class="publication-item__frame{% if publication.image_variant %} publication-item__frame--{{ publication.image_variant }}{% endif %}">
-              <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview">
-            </div>
+            {% if publication.links and publication.links.size > 0 %}
+              <a class="publication-item__media-link" href="{{ publication.links[0].url }}" target="_blank" rel="noreferrer" aria-label="View {{ publication.title }}">
+                <div class="publication-item__frame{% if publication.image_variant %} publication-item__frame--{{ publication.image_variant }}{% endif %}">
+                  <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview">
+                </div>
+                <div class="publication-item__overlay" aria-hidden="true">View →</div>
+              </a>
+            {% else %}
+              <div class="publication-item__frame{% if publication.image_variant %} publication-item__frame--{{ publication.image_variant }}{% endif %}">
+                <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview">
+              </div>
+            {% endif %}
           </div>
           <div class="publication-item__body">
             <p class="publication-item__meta">{{ publication.badge }} · {{ publication.contribution }}</p>
@@ -110,7 +132,7 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
     </div>
     <div class="entry-stack">
       {% for item in home.experience %}
-        <article class="entry-row">
+        <article class="entry-row" data-reveal>
           <div class="entry-row__period-block">
             <p class="entry-row__period">{{ item.period }}</p>
           </div>
@@ -139,7 +161,7 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
     </div>
     <div class="entry-stack">
       {% for item in home.education %}
-        <article class="entry-row">
+        <article class="entry-row" data-reveal>
           <div class="entry-row__period-block">
             <p class="entry-row__period">{{ item.period }}</p>
           </div>
@@ -159,11 +181,11 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
       <h2>Miscellaneous</h2>
     </div>
     <div class="misc-list">
-      <article class="misc-item">
+      <article class="misc-item" data-reveal>
         <h3>Academic Service</h3>
         <p>{{ home.misc.service }}</p>
       </article>
-      <article class="misc-item">
+      <article class="misc-item" data-reveal>
         <h3>Beyond Research</h3>
         <p>{{ home.misc.hobbies }}</p>
       </article>
