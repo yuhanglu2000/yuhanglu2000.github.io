@@ -36,6 +36,12 @@
   --shadow: 0 12px 32px rgba(0, 0, 0, 0.32);
 }
 
+[data-theme="dark"] .hero__portrait::before {
+  border-color: rgba(91, 163, 184, 0.28);
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
 [data-theme="dark"] body {
   background:
     linear-gradient(135deg, rgba(91, 163, 184, 0.07), transparent 30rem),
@@ -578,7 +584,7 @@ body.is-scrolled .site-header {
   z-index: 1;
   width: 0.56rem;
   height: 0.56rem;
-  border: 2px solid #edf3f3;
+  border: 2px solid var(--bg);
   border-radius: 999px;
   background: var(--accent);
   box-shadow: 0 0 0 4px rgba(63, 111, 127, 0.12);
@@ -651,7 +657,7 @@ body.is-scrolled .site-header {
 .publication-item__frame img {
   width: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 4px;
   background: rgba(248, 249, 245, 0.8);
 }
@@ -666,7 +672,8 @@ body.is-scrolled .site-header {
 }
 
 .publication-item__frame--strip img {
-  aspect-ratio: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   background: transparent;
 }
 
@@ -810,17 +817,28 @@ body.is-scrolled .site-header {
 
 @media (max-width: 760px) {
   :root {
-    --container: min(100vw - 1.4rem, 100%);
+    --container: min(100vw - 2.4rem, 100%);
   }
 
   .site-header__inner {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     padding: 0.75rem 0;
   }
 
+  .site-brand {
+    flex: 1;
+  }
+
+  .theme-toggle {
+    order: 2;
+    flex-shrink: 0;
+  }
+
   .site-nav {
+    order: 3;
     width: 100%;
     gap: 0.9rem;
   }
@@ -1024,12 +1042,12 @@ body.is-scrolled .site-header {
 .publication-item__media-link {
   display: block;
   position: relative;
-  overflow: hidden;
   border-radius: 8px;
   text-decoration: none;
 }
 
 .publication-item__media-link .publication-item__frame {
+  overflow: hidden;
   transition: transform 260ms cubic-bezier(0.4, 0, 0.2, 1),
               border-color 180ms ease, box-shadow 180ms ease;
 }
