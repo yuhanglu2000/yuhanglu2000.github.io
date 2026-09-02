@@ -20,15 +20,35 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
       </h1>
       <div class="hero__bio">
         {{ home.hero.bio | markdownify }}
+        <button class="expand-bio-btn" aria-label="Learn more about background">
+          <span class="expand-text">Learn more about my background</span>
+          <svg class="expand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div class="bio-expanded" data-expanded="false">
+          <div class="bio-expanded__content">
+            <p>
+              Before joining HKU, I worked as a Research Assistant at <a href="https://4dvlab.github.io/" target="_blank" rel="noreferrer">4DVLab</a>
+              with Prof. <a href="https://yuexinma.me/" target="_blank" rel="noreferrer">Yuexin Ma</a>, collaborating closely with
+              Dr. <a href="https://xingezhu.me/" target="_blank" rel="noreferrer">Xinge Zhu</a>.
+            </p>
+            <p>
+              I received my B.Sc. with first-class honours from the dual-degree program between
+              <a href="https://www.bupt.edu.cn/" target="_blank" rel="noreferrer">Beijing University of Posts and Telecommunications</a>
+              and <a href="https://www.qmul.ac.uk/" target="_blank" rel="noreferrer">Queen Mary University of London</a>.
+            </p>
+          </div>
+        </div>
       </div>
       {% if home.hero.research_interests %}
         <div class="hero__interests">
           <h2>Research Interests</h2>
-          <ul>
+          <div class="interest-tags">
             {% for interest in home.hero.research_interests %}
-              <li>{{ interest }}</li>
+              <span class="interest-tag">{{ interest }}</span>
             {% endfor %}
-          </ul>
+          </div>
         </div>
       {% endif %}
       <div class="inline-links hero__links">
@@ -61,7 +81,6 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
 <section class="section section--news" id="news">
   <div class="container news-layout">
     <div class="section-heading news-heading">
-      <p class="section-kicker">Latest Updates</p>
       <h2>News</h2>
     </div>
     <div class="news-frame">
@@ -86,23 +105,31 @@ description: Ph.D. student at HKU MMLab working on Physical AI, embodied intelli
 <section class="section" id="publications">
   <div class="container">
     <div class="section-heading">
-      <h2>Selected Publications</h2>
+      <h2>Publications</h2>
       <p class="section-note"><span class="equal-contribution">*</span> indicates equal contribution.</p>
     </div>
+
+    <!-- Research Area Filters -->
+    <div class="publication-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="autonomous-driving">Autonomous Driving</button>
+      <button class="filter-btn" data-filter="embodied-ai">Whole-Body Control</button>
+    </div>
+
     <div class="publication-list">
       {% for publication in site.data.publications %}
-        <article class="publication-item{% if publication.contribution == 'First author' or publication.contribution == 'Co-first author' %} publication-item--featured{% endif %}" data-reveal>
+        <article class="publication-item{% if publication.contribution == 'First author' or publication.contribution == 'Co-first author' %} publication-item--featured{% endif %}" data-reveal data-area="{{ publication.area }}">
           <div class="publication-item__media">
             {% if publication.links and publication.links.size > 0 %}
               <a class="publication-item__media-link" href="{{ publication.links[0].url }}" target="_blank" rel="noreferrer" aria-label="View {{ publication.title }}">
                 <div class="publication-item__frame{% if publication.image_variant %} publication-item__frame--{{ publication.image_variant }}{% endif %}">
-                  <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview">
+                  <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview" loading="lazy">
                 </div>
                 <div class="publication-item__overlay" aria-hidden="true">View →</div>
               </a>
             {% else %}
               <div class="publication-item__frame{% if publication.image_variant %} publication-item__frame--{{ publication.image_variant }}{% endif %}">
-                <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview">
+                <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }} preview" loading="lazy">
               </div>
             {% endif %}
           </div>

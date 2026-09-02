@@ -149,4 +149,138 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // ── Publication filtering ─────────────────────────────
+  const filterBtns = document.querySelectorAll(".filter-btn");
+  const publications = document.querySelectorAll(".publication-item");
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const filter = btn.dataset.filter;
+
+      // Update active state
+      filterBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      // Filter publications
+      publications.forEach((pub) => {
+        const area = pub.dataset.area;
+        if (filter === "all" || area === filter) {
+          pub.style.display = "";
+          // Re-trigger reveal animation
+          setTimeout(() => pub.classList.add("is-visible"), 10);
+        } else {
+          pub.style.display = "none";
+          pub.classList.remove("is-visible");
+        }
+      });
+    });
+  });
+
+  // ── Bio expand/collapse ───────────────────────────────
+  const expandBioBtn = document.querySelector(".expand-bio-btn");
+  const bioExpanded = document.querySelector(".bio-expanded");
+
+  if (expandBioBtn && bioExpanded) {
+    expandBioBtn.addEventListener("click", () => {
+      const isExpanded = bioExpanded.dataset.expanded === "true";
+      bioExpanded.dataset.expanded = isExpanded ? "false" : "true";
+
+      const expandText = expandBioBtn.querySelector(".expand-text");
+      if (expandText) {
+        expandText.textContent = isExpanded ? "Learn more about my background" : "Show less";
+      }
+    });
+  }
+
+  // ── BibTeX copy functionality ─────────────────────────
+  const addBibTexCopy = () => {
+    document.querySelectorAll(".publication-item").forEach((item) => {
+      const title = item.querySelector("h3")?.textContent;
+      if (!title) return;
+
+      const links = item.querySelector(".inline-links");
+      if (links) {
+        const bibBtn = document.createElement("button");
+        bibBtn.className = "bibtex-btn";
+        bibBtn.textContent = "BibTeX";
+        bibBtn.setAttribute("aria-label", `Copy BibTeX for ${title}`);
+
+        bibBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+
+          const authorsRaw = item.querySelector(".publication-item__authors")?.textContent || "";
+          const venue = item.querySelector(".publication-item__venue")?.textContent || "";
+          const badge = item.querySelector(".publication-item__meta")?.textContent || "";
+
+          // Clean authors (remove *, bold markers)
+          const authors = authorsRaw.replace(/\*/g, "").replace(/\s+/g, " ").trim();
+
+          // Extract year from venue
+          const yearMatch = venue.match(/\d{4}/);
+          const year = yearMatch ? yearMatch[0] : "2024";
+
+          // Extract conference/journal abbreviation from badge
+          const badgeParts = badge.split("·")[0].trim();
+          const isArxiv = badgeParts.toLowerCase().includes("arxiv");
+
+          // Generate citation key
+          const firstAuthor = authors.split(",")[0].split(" ").pop().toLowerCase();
+          const firstWord = title.split(" ")[0].toLowerCase().replace(/[^a-z]/g, "");
+          const citeKey = `${firstAuthor}${year}${firstWord}`;
+
+          let bibtex;
+          if (isArxiv) {
+            bibtex = `@article{${citeKey},
+  title={${title}},
+  author={${authors}},
+  journal={arXiv preprint},
+  year={${year}}
+}`;
+          } else {
+            const confMatch = badgeParts.match(/^([A-Z]+)/);
+            const confName = confMatch ? confMatch[1] : "Conference";
+            bibtex = `@inproceedings{${citeKey},
+  title={${title}},
+  author={${authors}},
+  booktitle={${venue}},
+  year={${year}}
+}`;
+          }
+
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText(bibtex)
+              .then(() => showToast("BibTeX copied!"))
+              .catch(() => showToast("Copy failed"));
+          }
+        });
+
+        links.appendChild(bibBtn);
+      }
+    });
+  };
+  addBibTexCopy();
+
+  // ── Smooth scroll for anchor links ────────────────────
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    link.addEventListener("click", (e) => {
+      const href = link.getAttribute("href");
+      if (href === "#") return;
+
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        const headerHeight = document.querySelector(".site-header")?.offsetHeight || 0;
+        const targetPos = target.getBoundingClientRect().top + window.scrollY - headerHeight - 20;
+
+        window.scrollTo({
+          top: targetPos,
+          behavior: "smooth"
+        });
+
+        // Update URL without jumping
+        history.pushState(null, "", href);
+      }
+    });
+  });
+
 });

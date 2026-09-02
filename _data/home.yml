@@ -2,17 +2,12 @@ hero:
   bio: >-
     I am a first-year Ph.D. student at [HKU MMLab](https://mmlab.hk/), co-advised
     by Prof. [Hongyang Li](https://lihongyang.info/) and Prof.
-    [Bin Chen](https://www.arch.hku.hk/staff/dla/chen-bin/). Before joining HKU,
-    I worked as a Research Assistant at [4DVLab](https://4dvlab.github.io/) with
-    Prof. [Yuexin Ma](https://yuexinma.me/), collaborating closely with Dr.
-    [Xinge Zhu](https://xingezhu.me/). I received my B.Sc. with first-class
-    honours from the dual-degree program between
-    [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/)
-    and [Queen Mary University of London](https://www.qmul.ac.uk/).
+    [Bin Chen](https://www.arch.hku.hk/staff/dla/chen-bin/). My research focuses on building
+    intelligent systems that understand and interact with the physical world.
   research_interests:
-    - Physical AI, especially humanoid robotics and autonomous driving.
-    - Humanoid robot foundation models with transferability, compositionality, and contact awareness.
-    - 3D understanding under distribution shift, limited supervision, and long-tail scenarios.
+    - Embodied AI
+    - Whole-Body Control
+    - 3D Vision
   portrait: /images/profile_photo.jpg
 news:
   - date: Jun 2026
