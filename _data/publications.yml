@@ -1,11 +1,11 @@
 - title: "RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning"
-  badge: arXiv 2026
+  badge: CoRL 2026
   contribution: Co-author
   area: embodied-ai
   image: /images/papers/RoboNaldo.png
   image_variant: strip
   authors: 'Yichao Zhong<span class="equal-contribution">*</span>, Yidan Lu<span class="equal-contribution">*</span>, **Yuhang Lu**, Tianyang Tang, Haoguang Mai, Yixuan Pan, Tianyu Li, Li Chen, Jingbo Wang, Zhongyu Li, Peng Lu, Hongyang Li'
-  venue: arXiv preprint, 2026
+  venue: Conference on Robot Learning (CoRL), 2026
   links:
     - label: Project Page
       url: https://opendrivelab.com/RoboNaldo/

@@ -10,6 +10,8 @@ hero:
     - 3D Vision
   portrait: /images/profile_photo.jpg
 news:
+  - date: Sep 2026
+    text: RoboNaldo was accepted by CoRL 2026.
   - date: Jun 2026
     text: We release RoboNaldo, an accurate, stable and powerful humanoid soccer shooting policy!
   - date: Apr 2026
